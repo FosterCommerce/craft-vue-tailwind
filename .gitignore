@@ -4,11 +4,13 @@
 .DS_Store
 
 /config/license.key
+/config/license.key.*
 
 node_modules/
 /dist
 
 # local env files
+.env
 .env.local
 .env.*.local
 
