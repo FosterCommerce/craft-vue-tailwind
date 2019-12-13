@@ -1,19 +1,8 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss/base";
+@import-glob "components/custom/base/**/*.css";
 
-/**
- * Here you would add any of your custom classes; stuff that you'd
- * want loaded *before* the utilities so that the utilities could still
- * override them.
- */
+@import "tailwindcss/components";
+@import-glob "components/custom/components/**/*.css";
 
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
-@tailwind utilities;
+@import "tailwindcss/utilities";
+@import-glob "components/custom/utilities/**/*.css";

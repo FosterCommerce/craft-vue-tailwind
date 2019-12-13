@@ -28,6 +28,9 @@
         slot)
       </code>
     </div>
+    <div>
+      <a class="btn btn--blue" href="#">Click Me</a>
+    </div>
   </div>
 </template>
 
