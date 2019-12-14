@@ -1,6 +1,11 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        'display': ['Poppins', 'Helvetica', 'Arial', 'sans-serif'],
+        'body': ['Roboto', 'Helvetica', 'Arial', 'sans-serif']
+      },
+    }
   },
   variants: {},
   plugins: [
@@ -42,4 +47,4 @@ module.exports = {
     }),
     require('autoprefixer')
   ]
-}
+};

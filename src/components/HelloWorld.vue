@@ -1,11 +1,11 @@
 <template>
 
-  <div class="hello max-w-lg mx-auto px-4 group-v-2 md:group-v-4">
+  <div class="hello max-w-lg mx-auto px-4 group-v-2 text-center md:group-v-4">
 
     <img class="inline-block mx-auto" src="/assets/logo.png" />
 
     <div class="group-v-1">
-      <h1 class="text-3xl">{{ msg }}</h1>
+      <h1 class="font-display text-3xl">{{ msg }}</h1>
       <p>You're viewing the <code>&#060;HelloWorld&#062;</code> component!</p>
       <p>If this text is white, you've successfully installed Tailwind!</p>
       <p>Passing in some data from twig:</p>

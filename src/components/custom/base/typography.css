@@ -1,0 +1,10 @@
+/* Example Google Fonts Import */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,400i,700,700i');
+
+body {
+  @apply font-body;
+  @apply text-base;
+  @apply text-black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

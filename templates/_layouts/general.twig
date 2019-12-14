@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+	<head>
+		{% include '_components/global/doc-head' %}
+	</head>
+
+	<body class="bg-gray-700 py-24">
+
+		<div id="app">
+
+			{% block content %}
+			{% endblock %}
+
+		</div>
+
+		{{ craft.twigpack.includeSafariNomoduleFix() }}
+		{{ craft.twigpack.includeJsModule("app.js", true) }}
+		{{ craft.twigpack.includeJsModule("chunk-vendors.js", true) }}
+
+	</body>
+
+</html>

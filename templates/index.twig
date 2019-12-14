@@ -1,30 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>{{ siteName }}</title>
+{# Extend the master layout template #}
+{% extends '_layouts/general' %}
 
-  {{ craft.twigpack.includeCssModule("app.css", true) }}
-</head>
+{% set info = {
+  craftVersion: craft.app.getVersion(),
+  environment: getenv('ENVIRONMENT')
+} %}
 
-<body class="bg-gray-700">
-  <div id="app">
-    
-    {% set info = {
-      craftVersion: craft.app.getVersion(),
-      environment: getenv('ENVIRONMENT')
-    } %}
-    
-    <hello-world :info="{{ info|json_encode }}">
-      {{ getenv('DB_DATABASE') }}
-    </hello-world>
-  </div>
+{% block content %}
 
-  {{ craft.twigpack.includeSafariNomoduleFix() }}
-  {{ craft.twigpack.includeJsModule("app.js", true) }}
-  {{ craft.twigpack.includeJsModule("chunk-vendors.js", true) }}
+  <hello-world :info="{{ info|json_encode }}">
+    {{ getenv('DB_DATABASE') }}
+  </hello-world>
 
-</body>
-</html>
+{% endblock %}
