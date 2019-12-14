@@ -1,22 +1,17 @@
 <template>
 
-  <div class="hello max-w-lg mx-auto px-4 group-v-4">
+  <div class="hello max-w-lg mx-auto px-4 group-v-2 md:group-v-4">
 
     <img class="inline-block mx-auto" src="/assets/logo.png" />
 
-    <h1 class="text-3xl mb-4">{{ msg }}</h1>
+    <div class="group-v-1">
+      <h1 class="text-3xl">{{ msg }}</h1>
+      <p>You're viewing the <code>&#060;HelloWorld&#062;</code> component!</p>
+      <p>If this text is white, you've successfully installed Tailwind!</p>
+      <p>Passing in some data from twig:</p>
+    </div>
 
-    <p class="mb-3">
-      You're viewing the <code>&#060;HelloWorld&#062;</code> component!
-    </p>
-
-    <p class="mb-3">
-      If this text is white, you've successfully installed Tailwind!
-    </p>
-
-    <p class="mb-3">Passing in some data from twig:</p>
-
-    <div class="mt-3 mb-10 p-4 inline-block rounded-lg leading-loose bg-black text-left">
+    <div class="p-4 rounded-lg leading-loose bg-black text-left">
       <code class="text-gray-500">
         <span class="text-white">Craft Version: </span>
         <span class="text-green-400">{{ info.craftVersion }}</span> (passed in
@@ -30,19 +25,19 @@
       </code>
     </div>
 
-    <div class="mb-12 md:grid md:grid-columns-3 md:grid-gap-4 lg:grid-columns-6 md:grid-gap-8">
-      <div class="block w-full h-4 bg-white"></div>
-      <div class="block w-full h-4 bg-white"></div>
-      <div class="block w-full h-4 bg-white"></div>
-      <div class="block w-full h-4 bg-white"></div>
-      <div class="block w-full h-4 bg-white"></div>
-      <div class="block w-full h-4 bg-white"></div>
-      <div class="block w-full h-4 bg-white"></div>
-      <div class="block w-full h-4 bg-white"></div>
-      <div class="block w-full h-4 bg-white"></div>
-      <div class="block w-full h-4 bg-white"></div>
-      <div class="block w-full h-4 bg-white"></div>
-      <div class="block w-full h-4 bg-white"></div>
+    <div class="grid grid-gap-5 md:grid-columns-3 lg:grid-columns-6 lg:grid-gap-8">
+      <div class="h-6 bg-white"></div>
+      <div class="h-6 bg-white"></div>
+      <div class="h-6 bg-white"></div>
+      <div class="h-6 bg-white"></div>
+      <div class="h-6 bg-white"></div>
+      <div class="h-6 bg-white"></div>
+      <div class="h-6 bg-white"></div>
+      <div class="h-6 bg-white"></div>
+      <div class="h-6 bg-white"></div>
+      <div class="h-6 bg-white"></div>
+      <div class="h-6 bg-white"></div>
+      <div class="h-6 bg-white"></div>
     </div>
 
     <div>
