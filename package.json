@@ -10,8 +10,11 @@
   "dependencies": {
     "postcss-import": "^12.0.1",
     "postcss-import-ext-glob": "^1.1.0",
+    "postcss-mixins": "^6.2.3",
     "postcss-nested": "^4.2.1",
+    "postcss-simple-vars": "^5.0.2",
     "tailwindcss": "^1.0.0",
+    "tailwindcss-grid": "^1.2.1",
     "vue": "^2.6.0"
   },
   "devDependencies": {
@@ -28,8 +31,11 @@
     "plugins": {
       "postcss-import-ext-glob": {},
       "postcss-import": {},
-      "tailwindcss": {},
+      "postcss-mixins": {},
+      "postcss-simple-vars": {},
       "postcss-nested": {},
+      "tailwindcss": {},
+      "tailwindcss-grid": {},
       "autoprefixer": {}
     }
   },

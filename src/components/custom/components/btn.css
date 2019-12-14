@@ -1,9 +1,11 @@
+$blue: rgb(0,0,255);
+
 .btn {
-  @apply inline px-6 py-3 rounded;
+  @apply inline-block px-6 py-3 rounded;
 }
 .btn--blue {
   @apply bg-blue-500 text-white;
   &:hover {
-    @apply bg-blue-700;
+    background-color: $blue;
   }
 }

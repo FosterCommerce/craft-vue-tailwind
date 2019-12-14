@@ -1,37 +1,56 @@
 <template>
-  <div class="hello">
-    <img class="mx-auto" src="/assets/logo.png" />
+
+  <div class="hello max-w-lg mx-auto px-4 group-v-4">
+
+    <img class="inline-block mx-auto" src="/assets/logo.png" />
+
     <h1 class="text-3xl mb-4">{{ msg }}</h1>
+
     <p class="mb-3">
       You're viewing the <code>&#060;HelloWorld&#062;</code> component!
     </p>
+
     <p class="mb-3">
       If this text is white, you've successfully installed Tailwind!
     </p>
 
     <p class="mb-3">Passing in some data from twig:</p>
 
-    <div
-      class="mt-3 mb-10 p-4 inline-block rounded-lg leading-loose bg-black text-left"
-    >
+    <div class="mt-3 mb-10 p-4 inline-block rounded-lg leading-loose bg-black text-left">
       <code class="text-gray-500">
         <span class="text-white">Craft Version: </span>
         <span class="text-green-400">{{ info.craftVersion }}</span> (passed in
         as prop)<br />
-
         <span class="text-white">Environment: </span>
         <span class="text-green-400">{{ info.environment }}</span> (passed in as
         prop)<br />
-
         <span class="text-white">DB Name: </span>
         <span class="text-green-400"><slot></slot></span> (passed in through
         slot)
       </code>
     </div>
+
+    <div class="mb-12 md:grid md:grid-columns-3 md:grid-gap-4 lg:grid-columns-6 md:grid-gap-8">
+      <div class="block w-full h-4 bg-white"></div>
+      <div class="block w-full h-4 bg-white"></div>
+      <div class="block w-full h-4 bg-white"></div>
+      <div class="block w-full h-4 bg-white"></div>
+      <div class="block w-full h-4 bg-white"></div>
+      <div class="block w-full h-4 bg-white"></div>
+      <div class="block w-full h-4 bg-white"></div>
+      <div class="block w-full h-4 bg-white"></div>
+      <div class="block w-full h-4 bg-white"></div>
+      <div class="block w-full h-4 bg-white"></div>
+      <div class="block w-full h-4 bg-white"></div>
+      <div class="block w-full h-4 bg-white"></div>
+    </div>
+
     <div>
       <a class="btn btn--blue" href="#">Click Me</a>
     </div>
+
   </div>
+
 </template>
 
 <script>
