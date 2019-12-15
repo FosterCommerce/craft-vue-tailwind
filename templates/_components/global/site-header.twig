@@ -1,0 +1,16 @@
+{% set info = {
+	siteName: siteName,
+	siteUrl: siteUrl
+} %}
+
+{% set navigation = [] %}
+{% for node in craft.navigation.nodes().handle('primaryNavigation').all() %}
+	{% set item = {
+		title: node.title,
+		url: node.url
+	} %}
+	{% set navigation = navigation|merge([item]) %}
+{% endfor %}
+
+<site-header :info="{{ info|json_encode }}" :navigation="{{ navigation|json_encode }}">
+</site-header>

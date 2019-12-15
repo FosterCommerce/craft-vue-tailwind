@@ -5,9 +5,11 @@
 		{% include '_components/global/doc-head' %}
 	</head>
 
-	<body class="bg-gray-700 py-24">
+	<body>
 
-		<div id="app">
+		<div id="app" class="pt-16">
+
+			{% include '_components/global/site-header' %}
 
 			{% block content %}
 			{% endblock %}

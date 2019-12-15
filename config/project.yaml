@@ -1,5 +1,77 @@
+dateModified: 1576433161
+email:
+  fromEmail: support@fostercommerce.com
+  fromName: 'Craft Vue Tailwind'
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  deb52fe3-1b1d-4abb-89c0-5af85fce8322:
+    name: Common
+navigation:
+  navs:
+    7d098513-b442-4de8-898e-3463aba0cfb3:
+      name: 'Primary Navigation'
+      handle: primaryNavigation
+      structure:
+        uid: 3f9f861e-2ea7-4b48-a3d6-0281910f3a61
+        maxLevels: null
+      instructions: ''
+      propagateNodes: false
+      sortOrder: 1
 plugins:
   twigpack:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.12
+sections:
+  2e7aaa5a-bc25-4e9a-8efd-dd29ee0fcec2:
+    name: Pages
+    handle: pages
+    type: structure
+    enableVersioning: true
+    propagationMethod: all
+    siteSettings:
+      ab67a472-afac-4525-a8c9-08a909f0d281:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: '{parent.uri}/{slug}'
+        template: page/_type
+    structure:
+      uid: a15327eb-2c4f-4f73-9be3-6c4b6e228b47
+      maxLevels: null
+    entryTypes:
+      9fc96015-4f93-4429-89ec-faefb125c13c:
+        name: Pages
+        handle: pages
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: null
+        sortOrder: 1
+siteGroups:
+  88d38408-5360-4f46-b37c-026f929f9307:
+    name: 'Craft Vue Tailwind'
+sites:
+  ab67a472-afac-4525-a8c9-08a909f0d281:
+    siteGroup: 88d38408-5360-4f46-b37c-026f929f9307
+    name: 'FWORK Plus'
+    handle: default
+    language: en-US
+    hasUrls: true
+    baseUrl: $DEFAULT_SITE_URL
+    sortOrder: 1
+    primary: true
+system:
+  edition: solo
+  name: 'FWORK Plus'
+  live: true
+  schemaVersion: 3.3.3
+  timeZone: America/Los_Angeles
+users:
+  requireEmailVerification: true
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoVolumeUid: null
+  photoSubpath: ''

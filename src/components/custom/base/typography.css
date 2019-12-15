@@ -4,7 +4,7 @@
 body {
   @apply font-body;
   @apply text-base;
-  @apply text-black;
+  @apply text-gray-800;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

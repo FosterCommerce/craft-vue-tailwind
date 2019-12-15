@@ -22,7 +22,8 @@
   "require": {
     "craftcms/cms": "^3.0.0",
     "vlucas/phpdotenv": "^2.4.0",
-    "nystudio107/craft-twigpack": "^1.1"
+    "nystudio107/craft-twigpack": "^1.1",
+    "verbb/navigation": "1.1.14.1"
   },
   "autoload": {
     "psr-4": {
