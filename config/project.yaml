@@ -1,22 +1,1273 @@
-dateModified: 1576433161
+dateModified: 1576497568
 email:
   fromEmail: support@fostercommerce.com
   fromName: 'Craft Vue Tailwind'
   transportType: craft\mail\transportadapters\Sendmail
 fieldGroups:
-  deb52fe3-1b1d-4abb-89c0-5af85fce8322:
-    name: Common
+  24f4c2bc-c279-4faf-94b4-ed1d70b683a2:
+    name: Assets
+  3c9f6df0-5abd-4877-a460-4152aec05e33:
+    name: Style
+  59376394-99bc-4a56-848d-d7f1bb119194:
+    name: Text
+  5e61df28-d93d-4339-82b6-07a8f44b142c:
+    name: 'Content Builders'
+  721537c2-5b3e-44c1-96a4-5afe4d0e049f:
+    name: Plugin
+  8c1e1966-fc9d-48fd-9621-ff86acfa29ef:
+    name: Relations
+  e0066e90-e858-47a6-9353-554b8abee96e:
+    name: Options
+  fbd00a3e-7235-4a6d-8b32-345e745b6912:
+    name: Compound
+fieldlabels:
+  1d9ebbbb-cae4-4008-9c32-aa0b7a52f5cc:
+    field: 9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2
+    fieldLayout: a2749570-8f8d-4f97-a418-50bda0f93a3e
+    name: 'Button Size'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  3b51b4e0-db15-4ea8-bd82-b575d8d12496:
+    field: 87a3aca4-9b17-41ab-a703-bba76a315981
+    fieldLayout: ef4c47d1-7dc7-49e8-9eae-eec68da8e8fd
+    name: 'Thumbnail Aspect Ratio'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  a32e0d5e-a1ec-4709-b43f-23c0ce8e1df0:
+    field: 57f2498a-803a-4083-9433-9b937db415bc
+    fieldLayout: 1d566ede-cbd1-4597-812c-6c4a7ccc6265
+    name: 'Table Color'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  e829e159-a5ea-4b93-9582-de3d097de709:
+    field: 57f2498a-803a-4083-9433-9b937db415bc
+    fieldLayout: a2749570-8f8d-4f97-a418-50bda0f93a3e
+    name: 'Button Color'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+fields:
+  05beaa1f-418d-42f6-8972-ffcf1d3421e6:
+    name: Position
+    handle: position
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      optgroups: true
+      options:
+        -
+          label: Auto
+          value: auto
+          default: '1'
+        -
+          label: Left
+          value: left
+          default: ''
+        -
+          label: Center
+          value: center
+          default: ''
+        -
+          label: Right
+          value: right
+          default: ''
+        -
+          label: Full
+          value: full
+          default: ''
+    contentColumnType: string
+    fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  11d456e9-f112-4213-9e12-5bbf5fc576a3:
+    name: 'Custom Code'
+    handle: code
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: '1'
+      multiline: '1'
+      initialRows: '6'
+      charLimit: ''
+      columnType: text
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  16b8848e-d06a-4c6b-b716-ee84349642d3:
+    name: Autoplay
+    handle: autoplay
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Lightswitch
+    settings:
+      default: ''
+    contentColumnType: boolean
+    fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  1a09a8f2-8bc2-42f9-afe4-ab7d17bc6bfc:
+    name: Padding
+    handle: padding
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      optgroups: true
+      options:
+        -
+          label: Large
+          value: large
+          default: ''
+        -
+          label: Medium
+          value: medium
+          default: '1'
+        -
+          label: Small
+          value: small
+          default: ''
+        -
+          label: None
+          value: none
+          default: ''
+    contentColumnType: string
+    fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  2378559f-b7e8-4d0d-83a9-c90809389dc4:
+    name: 'Source / Citation'
+    handle: cite
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: ''
+      initialRows: '4'
+      charLimit: ''
+      columnType: text
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  2b68a629-7e92-49f4-bc66-ed66591dadd3:
+    name: Images
+    handle: images
+    instructions: ''
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Assets
+    settings:
+      useSingleFolder: ''
+      defaultUploadLocationSource: 'volume:31bc6e28-f82b-4d59-8e21-a33325447c9d'
+      defaultUploadLocationSubpath: ''
+      singleUploadLocationSource: 'volume:31bc6e28-f82b-4d59-8e21-a33325447c9d'
+      singleUploadLocationSubpath: ''
+      restrictFiles: '1'
+      allowedKinds:
+        - image
+      sources:
+        - 'volume:31bc6e28-f82b-4d59-8e21-a33325447c9d'
+      source: null
+      targetSiteId: null
+      viewMode: large
+      limit: ''
+      selectionLabel: 'Add an image'
+      localizeRelations: false
+      validateRelatedElements: ''
+    contentColumnType: string
+    fieldGroup: 24f4c2bc-c279-4faf-94b4-ed1d70b683a2
+  332bf96d-e927-4c21-bfbd-d8dd96087850:
+    name: Heading
+    handle: heading
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: ''
+      initialRows: '4'
+      charLimit: ''
+      columnType: text
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  3481333e-977a-4adb-90d5-fae5926ad8bb:
+    name: Table
+    handle: table
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: supercool\tablemaker\fields\TableMakerField
+    settings:
+      columnsLabel: ''
+      columnsInstructions: ''
+      columnsAddRowLabel: ''
+      rowsLabel: ''
+      rowsInstructions: ''
+      rowsAddRowLabel: ''
+    contentColumnType: text
+    fieldGroup: 721537c2-5b3e-44c1-96a4-5afe4d0e049f
+  39d33505-2395-4f4a-9798-27430aa67b22:
+    name: Video
+    handle: video
+    instructions: ''
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Assets
+    settings:
+      useSingleFolder: ''
+      defaultUploadLocationSource: 'volume:e1c0dfb7-b877-4184-8f8d-c8121e74c039'
+      defaultUploadLocationSubpath: ''
+      singleUploadLocationSource: 'volume:31bc6e28-f82b-4d59-8e21-a33325447c9d'
+      singleUploadLocationSubpath: ''
+      restrictFiles: '1'
+      allowedKinds:
+        - json
+        - video
+      sources:
+        - 'volume:e1c0dfb7-b877-4184-8f8d-c8121e74c039'
+      source: null
+      targetSiteId: null
+      viewMode: large
+      limit: '1'
+      selectionLabel: 'Add a video'
+      localizeRelations: false
+      validateRelatedElements: ''
+    contentColumnType: string
+    fieldGroup: 24f4c2bc-c279-4faf-94b4-ed1d70b683a2
+  3aad9545-9f94-41c9-b9f5-f11ef3d223fd:
+    name: Alignment
+    handle: alignment
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      optgroups: true
+      options:
+        -
+          label: Left
+          value: left
+          default: '1'
+        -
+          label: Center
+          value: center
+          default: ''
+        -
+          label: Right
+          value: right
+          default: ''
+    contentColumnType: string
+    fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  57f2498a-803a-4083-9433-9b937db415bc:
+    name: 'Text Color'
+    handle: textColor
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      optgroups: true
+      options:
+        -
+          label: Black
+          value: black
+          default: '1'
+        -
+          label: Blue
+          value: blue
+          default: ''
+        -
+          label: Orange
+          value: orange
+          default: ''
+        -
+          label: White
+          value: white
+          default: ''
+    contentColumnType: string
+    fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  734d68d3-e878-4e03-8aa9-9feb0dd82fb1:
+    name: Form
+    handle: form
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: Solspace\Freeform\FieldTypes\FormFieldType
+    contentColumnType: integer
+    fieldGroup: 721537c2-5b3e-44c1-96a4-5afe4d0e049f
+  7ce9ced9-3e8f-4bf2-9cd6-065b16567e6e:
+    name: 'Rich Text'
+    handle: richText
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\redactor\Field
+    settings:
+      redactorConfig: Standard.json
+      purifierConfig: ''
+      cleanupHtml: true
+      removeInlineStyles: '1'
+      removeEmptyTags: '1'
+      removeNbsp: '1'
+      purifyHtml: '1'
+      columnType: text
+      availableVolumes: '*'
+      availableTransforms: '*'
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  87a3aca4-9b17-41ab-a703-bba76a315981:
+    name: 'Aspect Ratio'
+    handle: aspect
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      optgroups: true
+      options:
+        -
+          label: Auto
+          value: auto
+          default: '1'
+        -
+          label: 'Square (1:1)'
+          value: square
+          default: ''
+        -
+          label: 'Horizontal (3:2)'
+          value: horizontal
+          default: ''
+        -
+          label: 'Vertical (2:3)'
+          value: vertical
+          default: ''
+        -
+          label: 'Wide (16:9)'
+          value: wide
+          default: ''
+    contentColumnType: string
+    fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  89aeb5c6-2010-4b63-8418-bb1cbc073dbe:
+    name: Location
+    handle: location
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: ether\simplemap\fields\MapField
+    settings:
+      lat: 51.272154
+      lng: 0.514951
+      zoom: 15
+      minZoom: '3'
+      maxZoom: '18'
+      country: US
+      hideSearch: ''
+      hideMap: ''
+      hideAddress: ''
+      showLatLng: ''
+      showCurrentLocation: ''
+      size: normal
+      hideLatLng: null
+      height: null
+      countryRestriction: null
+      typeRestriction: null
+      boundaryRestrictionNELat: null
+      boundaryRestrictionNELng: null
+      boundaryRestrictionSWLat: null
+      boundaryRestrictionSWLng: null
+      boundary: '""'
+    contentColumnType: text
+    fieldGroup: 721537c2-5b3e-44c1-96a4-5afe4d0e049f
+  8eb75ebb-5efd-460a-b661-78a2e5c1929b:
+    name: 'Additional Keywords'
+    handle: keywords
+    instructions: 'Use this field to include additional keywords to assist in site searches.'
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: ''
+      initialRows: '4'
+      charLimit: ''
+      columnType: text
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  8ed3608e-41ca-474f-bf29-b77c0b80931c:
+    name: 'Background Color'
+    handle: backgroundColor
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      optgroups: true
+      options:
+        -
+          label: White
+          value: white
+          default: '1'
+        -
+          label: Blue
+          value: blue
+          default: ''
+        -
+          label: Orange
+          value: orange
+          default: ''
+        -
+          label: Black
+          value: black
+          default: ''
+    contentColumnType: string
+    fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2:
+    name: 'Text Size'
+    handle: textSize
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      optgroups: true
+      options:
+        -
+          label: Huge
+          value: huge
+          default: ''
+        -
+          label: Large
+          value: large
+          default: ''
+        -
+          label: Medium
+          value: medium
+          default: '1'
+        -
+          label: Small
+          value: small
+          default: ''
+    contentColumnType: string
+    fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  9c399ba4-8fdb-47a1-9f2c-883a0c08c56f:
+    name: 'Confirmation Message'
+    handle: confirm
+    instructions: 'The text that will be displayed when a user successfully submits the form.'
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\redactor\Field
+    settings:
+      redactorConfig: Simple.json
+      purifierConfig: ''
+      cleanupHtml: true
+      removeInlineStyles: '1'
+      removeEmptyTags: '1'
+      removeNbsp: '1'
+      purifyHtml: '1'
+      columnType: text
+      availableVolumes: '*'
+      availableTransforms: '*'
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  9c5a65fa-d228-42d3-9975-bf2ff8e37155:
+    name: 'Transition Type'
+    handle: transition
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      optgroups: true
+      options:
+        -
+          label: Slide
+          value: slide
+          default: '1'
+        -
+          label: Fade
+          value: fade
+          default: ''
+    contentColumnType: string
+    fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  adfefe4f-d6ca-4d4e-82ef-22326f737fd6:
+    name: Width
+    handle: width
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      optgroups: true
+      options:
+        -
+          label: Full
+          value: full
+          default: ''
+        -
+          label: Wide
+          value: wide
+          default: ''
+        -
+          label: Medium
+          value: medium
+          default: '1'
+        -
+          label: Thin
+          value: thin
+          default: ''
+    contentColumnType: string
+    fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  b7d09be9-9704-4d76-bf5a-6022ec9927c9:
+    name: Link
+    handle: button
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: fruitstudios\linkit\fields\LinkitField
+    settings:
+      selectLinkText: ''
+      types:
+        fruitstudios\linkit\models\Email:
+          enabled: '1'
+          customLabel: ''
+          customPlaceholder: ''
+        fruitstudios\linkit\models\Phone:
+          enabled: '1'
+          customLabel: ''
+          customPlaceholder: ''
+        fruitstudios\linkit\models\Url:
+          enabled: '1'
+          customLabel: ''
+          customPlaceholder: ''
+          allowAlias: '1'
+          allowMailto: '1'
+          allowHash: '1'
+          allowPaths: '1'
+        fruitstudios\linkit\models\Twitter:
+          enabled: '1'
+          customLabel: ''
+          customPlaceholder: ''
+        fruitstudios\linkit\models\Facebook:
+          enabled: '1'
+          customLabel: ''
+          customPlaceholder: ''
+        fruitstudios\linkit\models\Instagram:
+          enabled: '1'
+          customLabel: ''
+          customPlaceholder: ''
+        fruitstudios\linkit\models\LinkedIn:
+          enabled: '1'
+          customLabel: ''
+          customPlaceholder: ''
+        fruitstudios\linkit\models\Entry:
+          enabled: '1'
+          customLabel: ''
+          sources: '*'
+          customSelectionLabel: ''
+        fruitstudios\linkit\models\Category:
+          enabled: '1'
+          customLabel: ''
+          sources: '*'
+          customSelectionLabel: ''
+        fruitstudios\linkit\models\Asset:
+          enabled: '1'
+          customLabel: ''
+          sources: '*'
+          customSelectionLabel: ''
+        fruitstudios\linkit\models\User:
+          enabled: ''
+          customLabel: ''
+          sources: '*'
+          customSelectionLabel: ''
+          userPath: ''
+      allowCustomText: '1'
+      defaultText: ''
+      allowTarget: '1'
+    contentColumnType: text
+    fieldGroup: 721537c2-5b3e-44c1-96a4-5afe4d0e049f
+  b8826224-f4da-4eca-95e1-b4e3acd1b2c3:
+    name: 'Page Content'
+    handle: pageContent
+    instructions: 'Include rows of content to build out the page'
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: benf\neo\Field
+    settings:
+      minBlocks: ''
+      maxBlocks: ''
+      maxTopBlocks: ''
+      propagationMethod: all
+    contentColumnType: string
+    fieldGroup: 5e61df28-d93d-4339-82b6-07a8f44b142c
+  bae81998-dbb4-433d-845e-416fc4ac4e18:
+    name: Tag
+    handle: tag
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      optgroups: true
+      options:
+        -
+          label: H1
+          value: h1
+          default: ''
+        -
+          label: H2
+          value: h2
+          default: '1'
+        -
+          label: H3
+          value: h3
+          default: ''
+        -
+          label: H4
+          value: h4
+          default: ''
+        -
+          label: H5
+          value: h5
+          default: ''
+    contentColumnType: string
+    fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  c2609bfd-fefa-4ef4-9677-4644e30ed7b2:
+    name: 'Alternate Text'
+    handle: altText
+    instructions: 'Include descriptive text of the image for visually impaired users.'
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: ''
+      initialRows: '4'
+      charLimit: ''
+      columnType: text
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  cdb2e12c-0fba-43fe-bfcc-643a14754ab9:
+    name: Quote
+    handle: quote
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\redactor\Field
+    settings:
+      redactorConfig: Simple.json
+      purifierConfig: ''
+      cleanupHtml: true
+      removeInlineStyles: '1'
+      removeEmptyTags: '1'
+      removeNbsp: '1'
+      purifyHtml: '1'
+      columnType: text
+      availableVolumes: '*'
+      availableTransforms: '*'
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  cf28ac9c-b373-4de1-8afb-0baa227165d1:
+    name: Caption
+    handle: caption
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: ''
+      initialRows: '4'
+      charLimit: ''
+      columnType: text
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  e3bfa017-1474-4fed-a176-88a42ff2e8c2:
+    name: Summary
+    handle: summary
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\redactor\Field
+    settings:
+      redactorConfig: Simple.json
+      purifierConfig: ''
+      cleanupHtml: true
+      removeInlineStyles: '1'
+      removeEmptyTags: '1'
+      removeNbsp: '1'
+      purifyHtml: '1'
+      columnType: text
+      availableVolumes: '*'
+      availableTransforms: '*'
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  f6eb14cb-2129-492c-b471-b6ea4179d905:
+    name: Image
+    handle: image
+    instructions: ''
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Assets
+    settings:
+      useSingleFolder: ''
+      defaultUploadLocationSource: 'volume:31bc6e28-f82b-4d59-8e21-a33325447c9d'
+      defaultUploadLocationSubpath: ''
+      singleUploadLocationSource: 'volume:31bc6e28-f82b-4d59-8e21-a33325447c9d'
+      singleUploadLocationSubpath: ''
+      restrictFiles: '1'
+      allowedKinds:
+        - image
+      sources:
+        - 'volume:31bc6e28-f82b-4d59-8e21-a33325447c9d'
+      source: null
+      targetSiteId: null
+      viewMode: large
+      limit: '1'
+      selectionLabel: 'Add an image'
+      localizeRelations: false
+      validateRelatedElements: ''
+    contentColumnType: string
+    fieldGroup: 24f4c2bc-c279-4faf-94b4-ed1d70b683a2
+  fea94669-6b2d-4306-850a-4fb9d696fcac:
+    name: 'Grid Layout'
+    handle: grid
+    instructions: ''
+    searchable: false
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      optgroups: true
+      options:
+        -
+          label: None
+          value: one
+          default: ''
+        -
+          label: 'Two Up'
+          value: two
+          default: ''
+        -
+          label: 'Three Up'
+          value: three
+          default: '1'
+        -
+          label: 'Four Up'
+          value: four
+          default: ''
+        -
+          label: 'Five Up'
+          value: five
+          default: ''
+    contentColumnType: string
+    fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
 navigation:
   navs:
     7d098513-b442-4de8-898e-3463aba0cfb3:
       name: 'Primary Navigation'
-      handle: primaryNavigation
+      handle: primary
       structure:
         uid: 3f9f861e-2ea7-4b48-a3d6-0281910f3a61
         maxLevels: null
       instructions: ''
       propagateNodes: false
-      sortOrder: 1
+      sortOrder: null
+neoBlockTypeGroups:
+  2d803e7f-8629-4824-8664-fff21ebda2f4:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Text
+    sortOrder: 3
+  5002d6b7-3bc3-4b0f-96e2-f3f8d1a687f1:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Modules
+    sortOrder: 14
+  7d1224c2-5b68-49f4-a5db-71c96ddfa041:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Media
+    sortOrder: 9
+  d50bb4b4-6ee4-43c2-b296-46635424aba3:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Components
+    sortOrder: 19
+  f9eda0da-97ba-43d4-b03e-bc8b01096a5f:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Containers
+    sortOrder: 1
+neoBlockTypes:
+  061db8fb-26a7-4faa-aa0b-cdfcb21a0681:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Pane
+    handle: pane
+    sortOrder: 21
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks:
+      - heading
+      - richText
+      - quote
+      - table
+      - button
+      - image
+      - video
+      - gallery
+      - slider
+      - form
+      - code
+    topLevel: false
+    fieldLayouts:
+      36861469-36fc-4375-88cc-36d2ead6d3bf:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              332bf96d-e927-4c21-bfbd-d8dd96087850:
+                required: true
+                sortOrder: 1
+  207b818c-1e66-482c-8d36-5594d9792957:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: 'Rich Text'
+    handle: richText
+    sortOrder: 5
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: false
+    fieldLayouts:
+      0fed8306-9bb0-4eee-ab4d-dd06627187c0:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              7ce9ced9-3e8f-4bf2-9cd6-065b16567e6e:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              3aad9545-9f94-41c9-b9f5-f11ef3d223fd:
+                required: false
+                sortOrder: 2
+              57f2498a-803a-4083-9433-9b937db415bc:
+                required: false
+                sortOrder: 3
+              9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2:
+                required: false
+                sortOrder: 1
+  275f5285-cf76-4b51-9628-42ad3cfaac3a:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Image
+    handle: image
+    sortOrder: 10
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: false
+    fieldLayouts:
+      43423637-8002-4f69-a541-0989d36574a5:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              cf28ac9c-b373-4de1-8afb-0baa227165d1:
+                required: false
+                sortOrder: 2
+              f6eb14cb-2129-492c-b471-b6ea4179d905:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              05beaa1f-418d-42f6-8972-ffcf1d3421e6:
+                required: false
+                sortOrder: 1
+              87a3aca4-9b17-41ab-a703-bba76a315981:
+                required: false
+                sortOrder: 2
+  2e04d107-0116-469f-9869-94e8041d98ab:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Gallery
+    handle: gallery
+    sortOrder: 12
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: false
+    fieldLayouts:
+      ef4c47d1-7dc7-49e8-9eae-eec68da8e8fd:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              2b68a629-7e92-49f4-bc66-ed66591dadd3:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              87a3aca4-9b17-41ab-a703-bba76a315981:
+                required: false
+                sortOrder: 2
+              fea94669-6b2d-4306-850a-4fb9d696fcac:
+                required: false
+                sortOrder: 1
+  3f56f58d-e655-4368-9e90-0c4eeb3953cf:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Button
+    handle: button
+    sortOrder: 8
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: false
+    fieldLayouts:
+      a2749570-8f8d-4f97-a418-50bda0f93a3e:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              b7d09be9-9704-4d76-bf5a-6022ec9927c9:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              57f2498a-803a-4083-9433-9b937db415bc:
+                required: false
+                sortOrder: 2
+              9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2:
+                required: false
+                sortOrder: 1
+  591fffc3-76a1-4991-8b96-7a97498e2f25:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Tabs
+    handle: tabs
+    sortOrder: 16
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks:
+      - pane
+    topLevel: false
+    fieldLayouts:
+      ec49bda0-19d8-402b-a4da-457d363e5a37:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+  61448e4d-02c6-4118-86cf-3616ce629700:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Quote
+    handle: quote
+    sortOrder: 6
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: false
+    fieldLayouts:
+      bec33071-96ef-4a3e-873b-27092aa4cc76:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              2378559f-b7e8-4d0d-83a9-c90809389dc4:
+                required: false
+                sortOrder: 2
+              cdb2e12c-0fba-43fe-bfcc-643a14754ab9:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              05beaa1f-418d-42f6-8972-ffcf1d3421e6:
+                required: false
+                sortOrder: 1
+              3aad9545-9f94-41c9-b9f5-f11ef3d223fd:
+                required: false
+                sortOrder: 2
+              57f2498a-803a-4083-9433-9b937db415bc:
+                required: false
+                sortOrder: 3
+  635ed81e-4066-48c5-8b30-e49cc19bba99:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Slide
+    handle: slide
+    sortOrder: 20
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks:
+      - heading
+      - richText
+      - button
+    topLevel: false
+    fieldLayouts:
+      a95e5b43-5bbe-48be-86d3-0b898cffe674:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              f6eb14cb-2129-492c-b471-b6ea4179d905:
+                required: true
+                sortOrder: 1
+  6c69399f-55c0-4158-8b81-c5c70a4e2070:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Row
+    handle: row
+    sortOrder: 2
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks:
+      - heading
+      - richText
+      - quote
+      - table
+      - button
+      - image
+      - video
+      - gallery
+      - slider
+      - accordion
+      - tabs
+      - form
+      - code
+    topLevel: true
+    fieldLayouts:
+      95a8afe5-3088-4221-a5a2-72244c99eb2c:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              1a09a8f2-8bc2-42f9-afe4-ab7d17bc6bfc:
+                required: false
+                sortOrder: 1
+              adfefe4f-d6ca-4d4e-82ef-22326f737fd6:
+                required: false
+                sortOrder: 2
+  858e2949-7b9b-4237-be8d-a92986382819:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Slideshow
+    handle: slider
+    sortOrder: 13
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks:
+      - slide
+    topLevel: false
+    fieldLayouts:
+      b1ab227c-a66c-4f43-a95e-95cecc1fe7b9:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              16b8848e-d06a-4c6b-b716-ee84349642d3:
+                required: false
+                sortOrder: 2
+              9c5a65fa-d228-42d3-9975-bf2ff8e37155:
+                required: false
+                sortOrder: 1
+  b43286a1-8bb8-4848-89af-972840193bcc:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Heading
+    handle: heading
+    sortOrder: 4
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: false
+    fieldLayouts:
+      9860e55a-4ad2-43df-baeb-2766b911051b:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              332bf96d-e927-4c21-bfbd-d8dd96087850:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              3aad9545-9f94-41c9-b9f5-f11ef3d223fd:
+                required: false
+                sortOrder: 3
+              57f2498a-803a-4083-9433-9b937db415bc:
+                required: false
+                sortOrder: 4
+              9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2:
+                required: false
+                sortOrder: 2
+              bae81998-dbb4-433d-845e-416fc4ac4e18:
+                required: false
+                sortOrder: 1
+  b4f4527b-ece2-4d7f-b4ef-94a864420586:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Table
+    handle: table
+    sortOrder: 7
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: false
+    fieldLayouts:
+      1d566ede-cbd1-4597-812c-6c4a7ccc6265:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              3481333e-977a-4adb-90d5-fae5926ad8bb:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              57f2498a-803a-4083-9433-9b937db415bc:
+                required: false
+                sortOrder: 1
+  bc849705-bd2b-40dc-9896-f59bfbf84330:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Accordion
+    handle: accordion
+    sortOrder: 15
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks:
+      - pane
+    topLevel: false
+    fieldLayouts:
+      d6da7468-737b-4a4f-8b8c-291ff48d7565:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+  e2a79140-d786-4a0d-9843-454c2650fe6f:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: 'Custom Code'
+    handle: code
+    sortOrder: 18
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: false
+    fieldLayouts:
+      f4acd46a-dc4d-472d-8eda-b2f936344cb7:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              11d456e9-f112-4213-9e12-5bbf5fc576a3:
+                required: true
+                sortOrder: 1
+  e399a90a-3a8a-4e9b-b7b2-3ddea6a68344:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Form
+    handle: form
+    sortOrder: 17
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: false
+    fieldLayouts:
+      c96dbb5c-2f37-4af1-b4af-8b91aaf5ab09:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              734d68d3-e878-4e03-8aa9-9feb0dd82fb1:
+                required: true
+                sortOrder: 1
+              9c399ba4-8fdb-47a1-9f2c-883a0c08c56f:
+                required: true
+                sortOrder: 2
+  f3c4b0c9-5693-4c6e-a9c1-8f56d9a5d4bf:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Video
+    handle: video
+    sortOrder: 11
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: false
+    fieldLayouts:
+      dbc05a7f-85cb-4091-90a8-394e9de4035e:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              39d33505-2395-4f4a-9798-27430aa67b22:
+                required: true
+                sortOrder: 1
+              cf28ac9c-b373-4de1-8afb-0baa227165d1:
+                required: false
+                sortOrder: 2
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              05beaa1f-418d-42f6-8972-ffcf1d3421e6:
+                required: false
+                sortOrder: 1
 plugins:
   twigpack:
     edition: standard
@@ -26,6 +1277,141 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.12
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '1.2'
+  embeddedassets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  fieldlabels:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.1.2
+  freeform:
+    edition: lite
+    enabled: true
+    schemaVersion: 3.0.4
+    settings:
+      pluginName: null
+      formTemplateDirectory: null
+      emailTemplateDirectory: null
+      emailTemplateStorage: db
+      defaultView: dashboard
+      fieldDisplayOrder: name
+      showTutorial: '1'
+      removeNewlines: ''
+      defaultTemplates: '1'
+      footerScripts: false
+      scriptInsertLocation: footer
+      formSubmitDisable: ''
+      freeformHoneypot: true
+      freeformHoneypotEnhancement: false
+      customHoneypotName: null
+      customErrorMessage: null
+      formSubmitExpiration: null
+      minimumSubmitTime: null
+      spamProtectionBehaviour: simulate_success
+      submissionThrottlingCount: null
+      submissionThrottlingTimeFrame: null
+      blockedEmails: null
+      blockedKeywords: null
+      blockedKeywordsError: 'Invalid Entry Data'
+      blockedEmailsError: 'Invalid Email Address'
+      showErrorsForBlockedEmails: false
+      showErrorsForBlockedKeywords: false
+      blockedIpAddresses: null
+      purgableSubmissionAgeInDays: null
+      purgableSpamAgeInDays: null
+      salesforce_client_id: null
+      salesforce_client_secret: null
+      salesforce_username: null
+      salesforce_password: null
+      spamFolderEnabled: false
+      recaptchaEnabled: false
+      recaptchaKey: null
+      recaptchaSecret: null
+      recaptchaType: v2_checkbox
+      recaptchaMinScore: 0.5
+      recaptchaBehaviour: display_error
+      renderFormHtmlInCpViews: '1'
+      ajaxByDefault: '1'
+      autoScrollToErrors: '1'
+      fillWithGet: ''
+      formattingTemplate: flexbox.html
+      hideBannerDemo: '1'
+      hideBannerOldFreeform: false
+  neo:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.8
+    settings:
+      pluginName: SEO
+      renderEnabled: true
+      sitemapsEnabled: true
+      regenerateSitemapsAutomatically: true
+      headersEnabled: true
+      environment: live
+      displayPreviewSidebar: true
+      socialMediaPreviewTarget: true
+      sidebarDisplayPreviewTypes:
+        - google
+        - twitter
+        - facebook
+      displayAnalysisSidebar: true
+      devModeTitlePrefix: '&#x1f6a7; '
+      cpTitlePrefix: '⚙ '
+      devModeCpTitlePrefix: '&#x1f6a7;⚙ '
+      separatorChar: '|'
+      maxTitleLength: 70
+      maxDescriptionLength: 155
+      siteGroupsSeparate: '1'
+      addHrefLang: true
+      addXDefaultHrefLang: true
+      lowercaseCanonicalUrl: '1'
+      generatorEnabled: true
+      siteUrlOverride: ''
+  supersort:
+    edition: standard
+    enabled: true
+    schemaVersion: 0.0.0.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+  tablemaker:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typogrify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  linkit:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.8
+  simplemap:
+    edition: lite
+    enabled: true
+    schemaVersion: 3.4.2
+  video-embedder:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  imager:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
 sections:
   2e7aaa5a-bc25-4e9a-8efd-dd29ee0fcec2:
     name: Pages
@@ -43,12 +1429,19 @@ sections:
       uid: a15327eb-2c4f-4f73-9be3-6c4b6e228b47
       maxLevels: null
     entryTypes:
-      9fc96015-4f93-4429-89ec-faefb125c13c:
-        name: Pages
-        handle: pages
+      8ad5b5c9-bc0d-403b-b82d-1727493c2733:
+        name: News
+        handle: news
         hasTitleField: true
         titleLabel: Title
-        titleFormat: null
+        titleFormat: ''
+        sortOrder: 2
+      9fc96015-4f93-4429-89ec-faefb125c13c:
+        name: General
+        handle: general
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
         sortOrder: 1
 siteGroups:
   88d38408-5360-4f46-b37c-026f929f9307:
@@ -64,7 +1457,7 @@ sites:
     sortOrder: 1
     primary: true
 system:
-  edition: solo
+  edition: pro
   name: 'FWORK Plus'
   live: true
   schemaVersion: 3.3.3
@@ -75,3 +1468,51 @@ users:
   defaultGroup: null
   photoVolumeUid: null
   photoSubpath: ''
+volumes:
+  31bc6e28-f82b-4d59-8e21-a33325447c9d:
+    name: 'Local Images'
+    handle: localImages
+    type: craft\volumes\Local
+    hasUrls: true
+    url: '@web/uploads/images'
+    settings:
+      path: '@webroot/uploads/images'
+    sortOrder: 1
+    fieldLayouts:
+      35c91d56-3fdb-42e0-8cc9-b00e1fa6bb70:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              c2609bfd-fefa-4ef4-9677-4644e30ed7b2:
+                required: false
+                sortOrder: 1
+  b4623a75-4ffd-4637-bd4d-36ffbe88a935:
+    name: 'Local Files'
+    handle: localFiles
+    type: craft\volumes\Local
+    hasUrls: true
+    url: '@web/uploads/files'
+    settings:
+      path: '@webroot/uploads/files'
+    sortOrder: 3
+  e1c0dfb7-b877-4184-8f8d-c8121e74c039:
+    name: 'Local Videos'
+    handle: localVideos
+    type: craft\volumes\Local
+    hasUrls: true
+    url: '@web/uploads/videos'
+    settings:
+      path: '@webroot/uploads/videos'
+    sortOrder: 2
+    fieldLayouts:
+      c6dbf030-8a39-4c50-8a65-6e9fa1e46a2e:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              c2609bfd-fefa-4ef4-9677-4644e30ed7b2:
+                required: false
+                sortOrder: 1

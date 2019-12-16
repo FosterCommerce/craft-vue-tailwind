@@ -36,12 +36,14 @@ class TailwindExtractor {
 
 module.exports = {
   runtimeCompiler: true,
-  publicPath: `${config.protocol}://${config.host}:${config.port}/`,
-  outputDir: "web/dist",
+  publicPath: 'http://localhost:8080/',
+  outputDir: 'web/dist',
   filenameHashing: true,
+
   css: {
     sourceMap: true,
   },
+
   devServer: {
     https: config.https,
     host: config.host,
@@ -52,6 +54,7 @@ module.exports = {
     contentBase: path.join(__dirname, config.watchDir),
     watchContentBase: true,
   },
+
   configureWebpack: {
     plugins: [
       new ManifestPlugin({
@@ -83,4 +86,6 @@ module.exports = {
       }),
     ],
   },
+
+  assetsDir: 'assets'
 };

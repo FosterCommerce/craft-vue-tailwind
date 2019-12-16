@@ -4,7 +4,7 @@
 } %}
 
 {% set navigation = [] %}
-{% for node in craft.navigation.nodes().handle('primaryNavigation').all() %}
+{% for node in craft.navigation.nodes().handle('primary').all() %}
 	{% set item = {
 		title: node.title,
 		url: node.url
