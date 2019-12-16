@@ -1,4 +1,32 @@
-dateModified: 1576497568
+categoryGroups:
+  18fafec6-ea29-45d3-b653-efadf9123eb9:
+    name: 'News Categories'
+    handle: newsCategories
+    structure:
+      uid: e9e93210-f319-4d40-aec7-d642796aad61
+      maxLevels: null
+    siteSettings:
+      ab67a472-afac-4525-a8c9-08a909f0d281:
+        hasUrls: true
+        uriFormat: 'news/category/{slug}'
+        template: news/category
+    fieldLayouts:
+      ab232e4c-6d38-4c72-90aa-1d195ea96651:
+        tabs:
+          -
+            name: 'SEO / Meta'
+            sortOrder: 1
+            fields:
+              8eb75ebb-5efd-460a-b661-78a2e5c1929b:
+                required: false
+                sortOrder: 3
+              e3bfa017-1474-4fed-a176-88a42ff2e8c2:
+                required: false
+                sortOrder: 2
+              f6eb14cb-2129-492c-b471-b6ea4179d905:
+                required: false
+                sortOrder: 1
+dateModified: 1576532404
 email:
   fromEmail: support@fostercommerce.com
   fromName: 'Craft Vue Tailwind'
@@ -21,35 +49,240 @@ fieldGroups:
   fbd00a3e-7235-4a6d-8b32-345e745b6912:
     name: Compound
 fieldlabels:
-  1d9ebbbb-cae4-4008-9c32-aa0b7a52f5cc:
-    field: 9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2
-    fieldLayout: a2749570-8f8d-4f97-a418-50bda0f93a3e
-    name: 'Button Size'
+  00965c4d-fcbf-4867-bb54-3ee41ae64241:
+    field: e3bfa017-1474-4fed-a176-88a42ff2e8c2
+    fieldLayout: d70439e2-45b1-499f-86ad-3b14bab04dce
+    name: 'Preview Summary'
     instructions: null
     hideName: false
     hideInstructions: false
-  3b51b4e0-db15-4ea8-bd82-b575d8d12496:
-    field: 87a3aca4-9b17-41ab-a703-bba76a315981
-    fieldLayout: ef4c47d1-7dc7-49e8-9eae-eec68da8e8fd
-    name: 'Thumbnail Aspect Ratio'
+  14484882-8c18-460a-a80a-ef33044364b9:
+    field: f6eb14cb-2129-492c-b471-b6ea4179d905
+    fieldLayout: d70439e2-45b1-499f-86ad-3b14bab04dce
+    name: 'Preview Image'
     instructions: null
     hideName: false
     hideInstructions: false
-  a32e0d5e-a1ec-4709-b43f-23c0ce8e1df0:
-    field: 57f2498a-803a-4083-9433-9b937db415bc
-    fieldLayout: 1d566ede-cbd1-4597-812c-6c4a7ccc6265
-    name: 'Table Color'
+  2541f75b-4171-4336-9aa5-95c41d7a4d97:
+    field: f6eb14cb-2129-492c-b471-b6ea4179d905
+    fieldLayout: 1b8a3b09-15ab-4668-b7e7-a63fe6e15581
+    name: 'Preview Image'
     instructions: null
     hideName: false
     hideInstructions: false
-  e829e159-a5ea-4b93-9582-de3d097de709:
+  27cc3f43-1460-4a0f-9a8f-9e3429fe6133:
+    field: f6eb14cb-2129-492c-b471-b6ea4179d905
+    fieldLayout: 317b3dab-bb54-475d-8ae5-c739377cdc64
+    name: 'Preview Image'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  298ee8f2-65d1-4329-97e9-feb88de73704:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    fieldLayout: b870c8ec-ef37-4abe-9b54-8a4f703b57b5
+    name: 'Article Content'
+    instructions: 'Include blocks of content to build out the article'
+    hideName: false
+    hideInstructions: false
+  33e0438e-ac04-4545-827e-dba40dd8373f:
+    field: e02a1f1e-a3b6-4425-aa2b-04168abc924c
+    fieldLayout: b870c8ec-ef37-4abe-9b54-8a4f703b57b5
+    name: null
+    instructions: 'Include an alternate title for this article. Leave blank to use the article title.'
+    hideName: false
+    hideInstructions: false
+  3559cf6d-fc2b-47c2-a837-aaf4e9b61ed4:
+    field: e3bfa017-1474-4fed-a176-88a42ff2e8c2
+    fieldLayout: 72bb2cd1-054d-4567-9375-f6b699409645
+    name: 'Preview Summary'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  35fd1cb1-3c2d-4435-b301-e50e5702a178:
     field: 57f2498a-803a-4083-9433-9b937db415bc
     fieldLayout: a2749570-8f8d-4f97-a418-50bda0f93a3e
     name: 'Button Color'
     instructions: null
     hideName: false
     hideInstructions: false
+  4e729115-883e-4cd8-9388-e35d926baaba:
+    field: e3bfa017-1474-4fed-a176-88a42ff2e8c2
+    fieldLayout: b870c8ec-ef37-4abe-9b54-8a4f703b57b5
+    name: 'Preview Summary'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  5f97e9d4-ebdb-4e2e-b7f7-918596aa3673:
+    field: f6eb14cb-2129-492c-b471-b6ea4179d905
+    fieldLayout: 4705535e-ca45-45a5-a79e-6684a8626a4d
+    name: 'Default Page Header Image'
+    instructions: 'Include a default image for page headers that will be used of no preview image for the page is selected.'
+    hideName: false
+    hideInstructions: false
+  61eb5681-7dc8-4039-a429-2f56fe76f751:
+    field: f6eb14cb-2129-492c-b471-b6ea4179d905
+    fieldLayout: 72bb2cd1-054d-4567-9375-f6b699409645
+    name: 'Preview Image'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  67a42122-d27b-446d-b3c5-54f8946e9709:
+    field: e02a1f1e-a3b6-4425-aa2b-04168abc924c
+    fieldLayout: 317b3dab-bb54-475d-8ae5-c739377cdc64
+    name: null
+    instructions: 'Include an alternate title for this page. Leave blank to use the page title.'
+    hideName: false
+    hideInstructions: false
+  6d833a0d-6246-4586-907b-5b31c9727bdc:
+    field: f6eb14cb-2129-492c-b471-b6ea4179d905
+    fieldLayout: ab232e4c-6d38-4c72-90aa-1d195ea96651
+    name: 'Preview Image'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  6f748cee-7649-486b-9e31-2c5c4dfde3ea:
+    field: e02a1f1e-a3b6-4425-aa2b-04168abc924c
+    fieldLayout: d70439e2-45b1-499f-86ad-3b14bab04dce
+    name: null
+    instructions: 'Include an alternate title for this page. Leave blank to use the page title.'
+    hideName: false
+    hideInstructions: false
+  76528ccf-891d-4da3-b269-05bda077a25f:
+    field: e3bfa017-1474-4fed-a176-88a42ff2e8c2
+    fieldLayout: 1b8a3b09-15ab-4668-b7e7-a63fe6e15581
+    name: 'Preview Summary'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  79636c09-58bb-4566-84d5-35b85c7f24a6:
+    field: d7ccc6b6-5363-4117-92f8-aa87787aaaec
+    fieldLayout: d70439e2-45b1-499f-86ad-3b14bab04dce
+    name: null
+    instructions: 'Select the category of news articles to display on the page. Leave blank to display all articles.'
+    hideName: false
+    hideInstructions: false
+  7cf5aad4-1674-4a97-9eef-88f2fe394730:
+    field: 57f2498a-803a-4083-9433-9b937db415bc
+    fieldLayout: 3792ad99-c503-4d19-8155-78ea4064ad06
+    name: 'Table Color'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  8d5a2fe5-41df-4f13-a91d-d785f306a023:
+    field: 57f2498a-803a-4083-9433-9b937db415bc
+    fieldLayout: 1310cde0-91f6-4f3e-8a17-b1184ec78fb1
+    name: 'Button Color'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  980236a8-008b-4c2c-9eb4-65680023726c:
+    field: f6eb14cb-2129-492c-b471-b6ea4179d905
+    fieldLayout: b870c8ec-ef37-4abe-9b54-8a4f703b57b5
+    name: 'Preview Image'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  9fadd397-6c5b-4d70-acdd-6369a07afbc9:
+    field: 9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2
+    fieldLayout: a2749570-8f8d-4f97-a418-50bda0f93a3e
+    name: 'Button Size'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  b8b6fe51-a876-41c3-8e84-a25891d3041a:
+    field: 87a3aca4-9b17-41ab-a703-bba76a315981
+    fieldLayout: 2cb29f15-5074-43f3-b5e4-7ab90aa0b927
+    name: 'Thumbnail Aspect Ratio'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  d32294d1-1946-4841-b16b-b395a92f06db:
+    field: e3bfa017-1474-4fed-a176-88a42ff2e8c2
+    fieldLayout: ab232e4c-6d38-4c72-90aa-1d195ea96651
+    name: 'Preview Summary'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  d4aad52c-bc14-43c6-b51a-dc79a41c1d0e:
+    field: e3bfa017-1474-4fed-a176-88a42ff2e8c2
+    fieldLayout: 317b3dab-bb54-475d-8ae5-c739377cdc64
+    name: 'Preview Summary'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  d76aabd3-eeef-4e33-ac45-65d3f3db2e45:
+    field: 9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2
+    fieldLayout: 1310cde0-91f6-4f3e-8a17-b1184ec78fb1
+    name: 'Button Size'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  e3b832ae-ce6b-4455-a48d-389335f42000:
+    field: 87a3aca4-9b17-41ab-a703-bba76a315981
+    fieldLayout: ef4c47d1-7dc7-49e8-9eae-eec68da8e8fd
+    name: 'Thumbnail Aspect Ratio'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  f31e66f1-27d1-4f03-8b55-bb6252812528:
+    field: f6eb14cb-2129-492c-b471-b6ea4179d905
+    fieldLayout: c6dbf030-8a39-4c50-8a65-6e9fa1e46a2e
+    name: 'Poster Image'
+    instructions: 'The image that appears before the video plays.'
+    hideName: false
+    hideInstructions: false
+  fca30d42-dd01-46b0-9dc4-55179c161711:
+    field: 57f2498a-803a-4083-9433-9b937db415bc
+    fieldLayout: 1d566ede-cbd1-4597-812c-6c4a7ccc6265
+    name: 'Table Color'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  fe34c62a-2236-4fae-8c1c-de822d65bc45:
+    field: d7ccc6b6-5363-4117-92f8-aa87787aaaec
+    fieldLayout: b870c8ec-ef37-4abe-9b54-8a4f703b57b5
+    name: null
+    instructions: 'Select the categories for this article.'
+    hideName: false
+    hideInstructions: false
 fields:
+  03b750b8-b69a-4bec-a1d1-cecf95c4b46d:
+    name: 'Entries per page'
+    handle: paginate
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Dropdown
+    settings:
+      optgroups: true
+      options:
+        -
+          label: All
+          value: '0'
+          default: '1'
+        -
+          label: '10'
+          value: '10'
+          default: ''
+        -
+          label: '20'
+          value: '20'
+          default: ''
+        -
+          label: '30'
+          value: '30'
+          default: ''
+        -
+          label: '40'
+          value: '40'
+          default: ''
+        -
+          label: '50'
+          value: '50'
+          default: ''
+    contentColumnType: string
+    fieldGroup: e0066e90-e858-47a6-9353-554b8abee96e
   05beaa1f-418d-42f6-8972-ffcf1d3421e6:
     name: Position
     handle: position
@@ -141,6 +374,30 @@ fields:
           default: ''
     contentColumnType: string
     fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  1d8e8c49-ce5a-499e-91d5-e14174a42325:
+    name: 'Default News Page'
+    handle: defaultNews
+    instructions: 'Select the default News page for the site. If none is selected, the first one in the Pages section will be used.'
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: nfourtythree\entriessubset\fields\EntriesSubsetField
+    settings:
+      entryTypes:
+        - 8ad5b5c9-bc0d-403b-b82d-1727493c2733
+      userGroups: null
+      users: null
+      sources:
+        - 'section:2e7aaa5a-bc25-4e9a-8efd-dd29ee0fcec2'
+      source: null
+      targetSiteId: null
+      viewMode: null
+      limit: '1'
+      selectionLabel: ''
+      localizeRelations: false
+      validateRelatedElements: ''
+    contentColumnType: string
+    fieldGroup: 8c1e1966-fc9d-48fd-9621-ff86acfa29ef
   2378559f-b7e8-4d0d-83a9-c90809389dc4:
     name: 'Source / Citation'
     handle: cite
@@ -186,6 +443,23 @@ fields:
       validateRelatedElements: ''
     contentColumnType: string
     fieldGroup: 24f4c2bc-c279-4faf-94b4-ed1d70b683a2
+  331f18ab-885e-434c-9e0a-c0c51fdd435d:
+    name: Phone
+    handle: phone
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: ''
+      initialRows: '4'
+      charLimit: ''
+      columnType: text
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
   332bf96d-e927-4c21-bfbd-d8dd96087850:
     name: Heading
     handle: heading
@@ -445,6 +719,21 @@ fields:
           default: ''
     contentColumnType: string
     fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  90d4a327-9400-48d7-8bb4-18e710636c38:
+    name: 'Entry Content'
+    handle: entryContent
+    instructions: 'Include blocks of content to build out the entry'
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: benf\neo\Field
+    settings:
+      minBlocks: ''
+      maxBlocks: ''
+      maxTopBlocks: ''
+      propagationMethod: all
+    contentColumnType: string
+    fieldGroup: 5e61df28-d93d-4339-82b6-07a8f44b142c
   9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2:
     name: 'Text Size'
     handle: textSize
@@ -717,6 +1006,45 @@ fields:
       columnType: text
     contentColumnType: text
     fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  d7ccc6b6-5363-4117-92f8-aa87787aaaec:
+    name: 'Article Categories'
+    handle: newsCategories
+    instructions: ''
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Categories
+    settings:
+      allowLimit: false
+      allowMultipleSources: false
+      branchLimit: ''
+      sources: '*'
+      source: 'group:18fafec6-ea29-45d3-b653-efadf9123eb9'
+      targetSiteId: null
+      viewMode: null
+      limit: null
+      selectionLabel: ''
+      localizeRelations: false
+      validateRelatedElements: ''
+    contentColumnType: string
+    fieldGroup: 8c1e1966-fc9d-48fd-9621-ff86acfa29ef
+  e02a1f1e-a3b6-4425-aa2b-04168abc924c:
+    name: 'Alternate Title'
+    handle: altTitle
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: ''
+      initialRows: '4'
+      charLimit: ''
+      columnType: text
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
   e3bfa017-1474-4fed-a176-88a42ff2e8c2:
     name: Summary
     handle: summary
@@ -799,6 +1127,43 @@ fields:
           default: ''
     contentColumnType: string
     fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+globalSets:
+  02eaae2b-ff7a-47f7-af7b-69935108d5d4:
+    name: General
+    handle: general
+    fieldLayouts:
+      b42ad105-7d14-4f21-83f5-b37a659ac819:
+        tabs:
+          -
+            name: Contact
+            sortOrder: 1
+            fields:
+              331f18ab-885e-434c-9e0a-c0c51fdd435d:
+                required: false
+                sortOrder: 2
+              89aeb5c6-2010-4b63-8418-bb1cbc073dbe:
+                required: false
+                sortOrder: 1
+  98b897f7-b828-4bf3-857d-925e359b630c:
+    name: Sections
+    handle: sections
+    fieldLayouts:
+      4705535e-ca45-45a5-a79e-6684a8626a4d:
+        tabs:
+          -
+            name: Pages
+            sortOrder: 1
+            fields:
+              f6eb14cb-2129-492c-b471-b6ea4179d905:
+                required: false
+                sortOrder: 1
+          -
+            name: News
+            sortOrder: 2
+            fields:
+              1d8e8c49-ce5a-499e-91d5-e14174a42325:
+                required: false
+                sortOrder: 1
 navigation:
   navs:
     7d098513-b442-4de8-898e-3463aba0cfb3:
@@ -811,32 +1176,83 @@ navigation:
       propagateNodes: false
       sortOrder: null
 neoBlockTypeGroups:
-  2d803e7f-8629-4824-8664-fff21ebda2f4:
+  007193ef-8a83-4947-9f2e-6e32c9aeeada:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Media
+    sortOrder: 7
+  02bed045-f51c-41aa-8d70-156c0505f596:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Components
+    sortOrder: 20
+  34132c87-1d13-4c88-9f23-add3ce889b22:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Text
     sortOrder: 3
-  5002d6b7-3bc3-4b0f-96e2-f3f8d1a687f1:
-    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
-    name: Modules
-    sortOrder: 14
-  7d1224c2-5b68-49f4-a5db-71c96ddfa041:
-    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
-    name: Media
-    sortOrder: 9
-  d50bb4b4-6ee4-43c2-b296-46635424aba3:
-    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+  5066347b-6356-435a-8f64-d3d37faf37e4:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Text
+    sortOrder: 1
+  7f9dbc80-43fb-45c3-9152-ecf09ed54040:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
     name: Components
-    sortOrder: 19
-  f9eda0da-97ba-43d4-b03e-bc8b01096a5f:
+    sortOrder: 18
+  9461ff31-2952-4bad-9ca9-bf03c16bfe60:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Containers
     sortOrder: 1
+  a1077ae9-c379-4722-bf87-e197773e29e7:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Modules
+    sortOrder: 15
+  d10c134b-d84a-41ee-a892-c38766c2a999:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Media
+    sortOrder: 9
+  e55e9a2c-d4da-4c09-8029-d76c33354a16:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Modules
+    sortOrder: 13
 neoBlockTypes:
+  02ec681f-f570-4233-b3df-70226ab61b32:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Heading
+    handle: heading
+    sortOrder: 2
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: true
+    fieldLayouts:
+      87396e49-befe-4584-aab3-f8f4f0a04cb9:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              332bf96d-e927-4c21-bfbd-d8dd96087850:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              3aad9545-9f94-41c9-b9f5-f11ef3d223fd:
+                required: false
+                sortOrder: 3
+              57f2498a-803a-4083-9433-9b937db415bc:
+                required: false
+                sortOrder: 4
+              9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2:
+                required: false
+                sortOrder: 2
+              bae81998-dbb4-433d-845e-416fc4ac4e18:
+                required: false
+                sortOrder: 1
   061db8fb-26a7-4faa-aa0b-cdfcb21a0681:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Pane
     handle: pane
-    sortOrder: 21
+    sortOrder: 22
     maxBlocks: 0
     maxChildBlocks: 0
     childBlocks:
@@ -849,11 +1265,72 @@ neoBlockTypes:
       - video
       - gallery
       - slider
+      - map
       - form
       - code
     topLevel: false
     fieldLayouts:
       36861469-36fc-4375-88cc-36d2ead6d3bf:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              332bf96d-e927-4c21-bfbd-d8dd96087850:
+                required: true
+                sortOrder: 1
+  1aa769c1-0804-4c0a-8b49-6251543a63f3:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Gallery
+    handle: gallery
+    sortOrder: 10
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: true
+    fieldLayouts:
+      2cb29f15-5074-43f3-b5e4-7ab90aa0b927:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              2b68a629-7e92-49f4-bc66-ed66591dadd3:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              87a3aca4-9b17-41ab-a703-bba76a315981:
+                required: false
+                sortOrder: 2
+              fea94669-6b2d-4306-850a-4fb9d696fcac:
+                required: false
+                sortOrder: 1
+  1f1a70a2-dfc5-476e-9a09-46461229a679:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Pane
+    handle: pane
+    sortOrder: 20
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks:
+      - heading
+      - richText
+      - quote
+      - table
+      - button
+      - image
+      - video
+      - gallery
+      - slider
+      - map
+      - form
+      - code
+    topLevel: false
+    fieldLayouts:
+      799bde03-acc3-4963-aafd-180a037e5ccd:
         tabs:
           -
             name: Content
@@ -887,13 +1364,35 @@ neoBlockTypes:
             fields:
               3aad9545-9f94-41c9-b9f5-f11ef3d223fd:
                 required: false
-                sortOrder: 2
+                sortOrder: 1
               57f2498a-803a-4083-9433-9b937db415bc:
                 required: false
                 sortOrder: 3
               9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2:
                 required: false
+                sortOrder: 2
+  223008a6-72c3-4da3-88ea-dbff940d585f:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Form
+    handle: form
+    sortOrder: 16
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: true
+    fieldLayouts:
+      b5ca9ee2-cf4d-47d2-b9eb-4e8f24388705:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              734d68d3-e878-4e03-8aa9-9feb0dd82fb1:
+                required: true
                 sortOrder: 1
+              9c399ba4-8fdb-47a1-9f2c-883a0c08c56f:
+                required: true
+                sortOrder: 2
   275f5285-cf76-4b51-9628-42ad3cfaac3a:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Image
@@ -926,6 +1425,48 @@ neoBlockTypes:
               87a3aca4-9b17-41ab-a703-bba76a315981:
                 required: false
                 sortOrder: 2
+  297a303e-0622-4f04-a6eb-99a446d55741:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Accordion
+    handle: accordion
+    sortOrder: 14
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks:
+      - pane
+    topLevel: true
+    fieldLayouts:
+      378d4adc-7624-43ad-a9fe-8eb642ceed9b:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+  2ae41271-4716-4de6-aedd-0b628627e3d5:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Table
+    handle: table
+    sortOrder: 5
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: true
+    fieldLayouts:
+      3792ad99-c503-4d19-8155-78ea4064ad06:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              3481333e-977a-4adb-90d5-fae5926ad8bb:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              57f2498a-803a-4083-9433-9b937db415bc:
+                required: false
+                sortOrder: 1
   2e04d107-0116-469f-9869-94e8041d98ab:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Gallery
@@ -984,11 +1525,33 @@ neoBlockTypes:
               9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2:
                 required: false
                 sortOrder: 1
+  46d4d4ec-35e8-4ebe-9add-cb5b8bf8ef5a:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Slide
+    handle: slide
+    sortOrder: 19
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks:
+      - heading
+      - richText
+      - button
+    topLevel: false
+    fieldLayouts:
+      695826e1-9905-45b1-93c0-4297531d3ee4:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              f6eb14cb-2129-492c-b471-b6ea4179d905:
+                required: true
+                sortOrder: 1
   591fffc3-76a1-4991-8b96-7a97498e2f25:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Tabs
     handle: tabs
-    sortOrder: 16
+    sortOrder: 17
     maxBlocks: 0
     maxChildBlocks: 0
     childBlocks:
@@ -1000,6 +1563,38 @@ neoBlockTypes:
           -
             name: Content
             sortOrder: 1
+  5b831b37-1f90-4657-bbbe-03a862990229:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Map
+    handle: map
+    sortOrder: 12
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: true
+    fieldLayouts:
+      -
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              89aeb5c6-2010-4b63-8418-bb1cbc073dbe:
+                required: true
+                sortOrder: 1
+              cf28ac9c-b373-4de1-8afb-0baa227165d1:
+                required: false
+                sortOrder: 2
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              05beaa1f-418d-42f6-8972-ffcf1d3421e6:
+                required: false
+                sortOrder: 1
+              87a3aca4-9b17-41ab-a703-bba76a315981:
+                required: false
+                sortOrder: 2
   61448e4d-02c6-4118-86cf-3616ce629700:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Quote
@@ -1028,18 +1623,18 @@ neoBlockTypes:
             fields:
               05beaa1f-418d-42f6-8972-ffcf1d3421e6:
                 required: false
-                sortOrder: 1
+                sortOrder: 3
               3aad9545-9f94-41c9-b9f5-f11ef3d223fd:
                 required: false
-                sortOrder: 2
+                sortOrder: 1
               57f2498a-803a-4083-9433-9b937db415bc:
                 required: false
-                sortOrder: 3
+                sortOrder: 2
   635ed81e-4066-48c5-8b30-e49cc19bba99:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Slide
     handle: slide
-    sortOrder: 20
+    sortOrder: 21
     maxBlocks: 0
     maxChildBlocks: 0
     childBlocks:
@@ -1057,6 +1652,38 @@ neoBlockTypes:
               f6eb14cb-2129-492c-b471-b6ea4179d905:
                 required: true
                 sortOrder: 1
+  6bc9a94c-b7ab-4f39-a463-11889c347e9f:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Image
+    handle: image
+    sortOrder: 8
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: true
+    fieldLayouts:
+      733d5f58-395a-4ab4-8995-243c997e88df:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              cf28ac9c-b373-4de1-8afb-0baa227165d1:
+                required: false
+                sortOrder: 2
+              f6eb14cb-2129-492c-b471-b6ea4179d905:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              05beaa1f-418d-42f6-8972-ffcf1d3421e6:
+                required: false
+                sortOrder: 1
+              87a3aca4-9b17-41ab-a703-bba76a315981:
+                required: false
+                sortOrder: 2
   6c69399f-55c0-4158-8b81-c5c70a4e2070:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Row
@@ -1074,6 +1701,7 @@ neoBlockTypes:
       - video
       - gallery
       - slider
+      - map
       - accordion
       - tabs
       - form
@@ -1095,6 +1723,35 @@ neoBlockTypes:
               adfefe4f-d6ca-4d4e-82ef-22326f737fd6:
                 required: false
                 sortOrder: 2
+  81f43402-6e5a-4fcf-9303-d6da313f9d16:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Button
+    handle: button
+    sortOrder: 6
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: true
+    fieldLayouts:
+      1310cde0-91f6-4f3e-8a17-b1184ec78fb1:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              b7d09be9-9704-4d76-bf5a-6022ec9927c9:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              57f2498a-803a-4083-9433-9b937db415bc:
+                required: false
+                sortOrder: 2
+              9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2:
+                required: false
+                sortOrder: 1
   858e2949-7b9b-4237-be8d-a92986382819:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Slideshow
@@ -1107,6 +1764,128 @@ neoBlockTypes:
     topLevel: false
     fieldLayouts:
       b1ab227c-a66c-4f43-a95e-95cecc1fe7b9:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              16b8848e-d06a-4c6b-b716-ee84349642d3:
+                required: false
+                sortOrder: 2
+              9c5a65fa-d228-42d3-9975-bf2ff8e37155:
+                required: false
+                sortOrder: 1
+  920d10dd-214c-47da-86c5-b9add6a3f156:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Quote
+    handle: quote
+    sortOrder: 4
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: true
+    fieldLayouts:
+      b9496a75-f916-45b5-8433-9c967e426fb4:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              2378559f-b7e8-4d0d-83a9-c90809389dc4:
+                required: false
+                sortOrder: 2
+              cdb2e12c-0fba-43fe-bfcc-643a14754ab9:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              05beaa1f-418d-42f6-8972-ffcf1d3421e6:
+                required: false
+                sortOrder: 3
+              3aad9545-9f94-41c9-b9f5-f11ef3d223fd:
+                required: false
+                sortOrder: 1
+              57f2498a-803a-4083-9433-9b937db415bc:
+                required: false
+                sortOrder: 2
+  949ce8db-9505-4091-a701-45f00d0e3d7c:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Map
+    handle: map
+    sortOrder: 14
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: false
+    fieldLayouts:
+      -
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              89aeb5c6-2010-4b63-8418-bb1cbc073dbe:
+                required: true
+                sortOrder: 1
+              cf28ac9c-b373-4de1-8afb-0baa227165d1:
+                required: false
+                sortOrder: 2
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              05beaa1f-418d-42f6-8972-ffcf1d3421e6:
+                required: false
+                sortOrder: 1
+              87a3aca4-9b17-41ab-a703-bba76a315981:
+                required: false
+                sortOrder: 2
+  a0ed8ff5-67c0-4d0f-8210-64e926259aff:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Video
+    handle: video
+    sortOrder: 9
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: true
+    fieldLayouts:
+      e2150a61-f963-432b-9fb5-55ba449195a8:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              39d33505-2395-4f4a-9798-27430aa67b22:
+                required: true
+                sortOrder: 1
+              cf28ac9c-b373-4de1-8afb-0baa227165d1:
+                required: false
+                sortOrder: 2
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              05beaa1f-418d-42f6-8972-ffcf1d3421e6:
+                required: false
+                sortOrder: 1
+  a50191db-5cd1-430a-8b0d-6a7b8d34d179:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Slideshow
+    handle: slider
+    sortOrder: 11
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks:
+      - slide
+    topLevel: true
+    fieldLayouts:
+      c7ad669c-d87b-4f13-bf55-b5a462172582:
         tabs:
           -
             name: Content
@@ -1146,16 +1925,16 @@ neoBlockTypes:
             fields:
               3aad9545-9f94-41c9-b9f5-f11ef3d223fd:
                 required: false
-                sortOrder: 3
+                sortOrder: 1
               57f2498a-803a-4083-9433-9b937db415bc:
                 required: false
-                sortOrder: 4
+                sortOrder: 3
               9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2:
                 required: false
                 sortOrder: 2
               bae81998-dbb4-433d-845e-416fc4ac4e18:
                 required: false
-                sortOrder: 1
+                sortOrder: 4
   b4f4527b-ece2-4d7f-b4ef-94a864420586:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Table
@@ -1186,7 +1965,7 @@ neoBlockTypes:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Accordion
     handle: accordion
-    sortOrder: 15
+    sortOrder: 16
     maxBlocks: 0
     maxChildBlocks: 0
     childBlocks:
@@ -1198,11 +1977,78 @@ neoBlockTypes:
           -
             name: Content
             sortOrder: 1
+  c610bfd8-be57-45e7-8a2f-b1ff62908a30:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: 'Rich Text'
+    handle: richText
+    sortOrder: 3
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: true
+    fieldLayouts:
+      2f04aa36-b292-4d42-acf1-3de3985f0038:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              7ce9ced9-3e8f-4bf2-9cd6-065b16567e6e:
+                required: true
+                sortOrder: 1
+          -
+            name: Settings
+            sortOrder: 2
+            fields:
+              3aad9545-9f94-41c9-b9f5-f11ef3d223fd:
+                required: false
+                sortOrder: 1
+              57f2498a-803a-4083-9433-9b937db415bc:
+                required: false
+                sortOrder: 3
+              9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2:
+                required: false
+                sortOrder: 2
+  cbf8bbd6-7f12-4e97-9a94-a0cba75b1301:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: 'Custom Code'
+    handle: code
+    sortOrder: 17
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks: ''
+    topLevel: true
+    fieldLayouts:
+      d084d117-eb5c-472c-a3cb-e3011678cde4:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              11d456e9-f112-4213-9e12-5bbf5fc576a3:
+                required: true
+                sortOrder: 1
+  d4d369ff-cc8f-4c9b-9115-3830f1358c58:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Tabs
+    handle: tabs
+    sortOrder: 15
+    maxBlocks: 0
+    maxChildBlocks: 0
+    childBlocks:
+      - pane
+    topLevel: true
+    fieldLayouts:
+      50206415-30d5-48e6-9214-066d7088f14e:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
   e2a79140-d786-4a0d-9843-454c2650fe6f:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: 'Custom Code'
     handle: code
-    sortOrder: 18
+    sortOrder: 19
     maxBlocks: 0
     maxChildBlocks: 0
     childBlocks: ''
@@ -1221,7 +2067,7 @@ neoBlockTypes:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Form
     handle: form
-    sortOrder: 17
+    sortOrder: 18
     maxBlocks: 0
     maxChildBlocks: 0
     childBlocks: ''
@@ -1412,7 +2258,54 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
+  entriessubset:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.1.1
 sections:
+  1e3c4cbe-0bc4-42ec-85db-1b75ad0e2492:
+    name: Homepage
+    handle: homepage
+    type: single
+    enableVersioning: true
+    propagationMethod: all
+    siteSettings:
+      ab67a472-afac-4525-a8c9-08a909f0d281:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: __home__
+        template: index
+    entryTypes:
+      5b2354fd-20ab-4d94-aa20-a1795f4f8f52:
+        name: Homepage
+        handle: homepage
+        hasTitleField: false
+        titleLabel: ''
+        titleFormat: '{section.name|raw}'
+        sortOrder: 1
+        fieldLayouts:
+          1b8a3b09-15ab-4668-b7e7-a63fe6e15581:
+            tabs:
+              -
+                name: Content
+                sortOrder: 1
+                fields:
+                  b8826224-f4da-4eca-95e1-b4e3acd1b2c3:
+                    required: true
+                    sortOrder: 1
+              -
+                name: 'SEO / Meta'
+                sortOrder: 2
+                fields:
+                  8eb75ebb-5efd-460a-b661-78a2e5c1929b:
+                    required: false
+                    sortOrder: 3
+                  e3bfa017-1474-4fed-a176-88a42ff2e8c2:
+                    required: false
+                    sortOrder: 2
+                  f6eb14cb-2129-492c-b471-b6ea4179d905:
+                    required: false
+                    sortOrder: 1
   2e7aaa5a-bc25-4e9a-8efd-dd29ee0fcec2:
     name: Pages
     handle: pages
@@ -1430,19 +2323,166 @@ sections:
       maxLevels: null
     entryTypes:
       8ad5b5c9-bc0d-403b-b82d-1727493c2733:
-        name: News
+        name: 'News Page'
         handle: news
         hasTitleField: true
         titleLabel: Title
         titleFormat: ''
         sortOrder: 2
+        fieldLayouts:
+          d70439e2-45b1-499f-86ad-3b14bab04dce:
+            tabs:
+              -
+                name: Content
+                sortOrder: 1
+                fields:
+                  03b750b8-b69a-4bec-a1d1-cecf95c4b46d:
+                    required: false
+                    sortOrder: 3
+                  d7ccc6b6-5363-4117-92f8-aa87787aaaec:
+                    required: false
+                    sortOrder: 2
+                  e02a1f1e-a3b6-4425-aa2b-04168abc924c:
+                    required: false
+                    sortOrder: 1
+              -
+                name: 'SEO / Meta'
+                sortOrder: 2
+                fields:
+                  8eb75ebb-5efd-460a-b661-78a2e5c1929b:
+                    required: false
+                    sortOrder: 3
+                  e3bfa017-1474-4fed-a176-88a42ff2e8c2:
+                    required: false
+                    sortOrder: 2
+                  f6eb14cb-2129-492c-b471-b6ea4179d905:
+                    required: false
+                    sortOrder: 1
       9fc96015-4f93-4429-89ec-faefb125c13c:
-        name: General
+        name: 'General Page'
         handle: general
         hasTitleField: true
         titleLabel: Title
         titleFormat: ''
         sortOrder: 1
+        fieldLayouts:
+          317b3dab-bb54-475d-8ae5-c739377cdc64:
+            tabs:
+              -
+                name: Content
+                sortOrder: 1
+                fields:
+                  b8826224-f4da-4eca-95e1-b4e3acd1b2c3:
+                    required: true
+                    sortOrder: 2
+                  e02a1f1e-a3b6-4425-aa2b-04168abc924c:
+                    required: false
+                    sortOrder: 1
+              -
+                name: 'SEO / Meta'
+                sortOrder: 2
+                fields:
+                  8eb75ebb-5efd-460a-b661-78a2e5c1929b:
+                    required: false
+                    sortOrder: 3
+                  e3bfa017-1474-4fed-a176-88a42ff2e8c2:
+                    required: false
+                    sortOrder: 2
+                  f6eb14cb-2129-492c-b471-b6ea4179d905:
+                    required: false
+                    sortOrder: 1
+  5994676d-ccf0-4430-a764-e4e059e1b605:
+    name: 'Page Not Found'
+    handle: pageNotFound
+    type: single
+    enableVersioning: true
+    propagationMethod: all
+    siteSettings:
+      ab67a472-afac-4525-a8c9-08a909f0d281:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: page-not-found
+        template: '404'
+    entryTypes:
+      f2b12058-6b52-41b2-bc86-afdb464182a7:
+        name: 'Page Not Found'
+        handle: pageNotFound
+        hasTitleField: false
+        titleLabel: ''
+        titleFormat: '{section.name|raw}'
+        sortOrder: 1
+        fieldLayouts:
+          72bb2cd1-054d-4567-9375-f6b699409645:
+            tabs:
+              -
+                name: Content
+                sortOrder: 1
+                fields:
+                  b8826224-f4da-4eca-95e1-b4e3acd1b2c3:
+                    required: true
+                    sortOrder: 1
+              -
+                name: 'SEO / Meta'
+                sortOrder: 2
+                fields:
+                  8eb75ebb-5efd-460a-b661-78a2e5c1929b:
+                    required: false
+                    sortOrder: 3
+                  e3bfa017-1474-4fed-a176-88a42ff2e8c2:
+                    required: false
+                    sortOrder: 2
+                  f6eb14cb-2129-492c-b471-b6ea4179d905:
+                    required: false
+                    sortOrder: 1
+  eef60044-7c15-4709-90ea-0c8035e7b0cd:
+    name: News
+    handle: news
+    type: channel
+    enableVersioning: true
+    propagationMethod: all
+    siteSettings:
+      ab67a472-afac-4525-a8c9-08a909f0d281:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: 'news/{slug}'
+        template: news/_entry
+    entryTypes:
+      4a347537-3003-4554-9cca-b513286e6a4b:
+        name: Article
+        handle: article
+        hasTitleField: true
+        titleLabel: 'Article Title'
+        titleFormat: ''
+        sortOrder: 1
+        fieldLayouts:
+          b870c8ec-ef37-4abe-9b54-8a4f703b57b5:
+            tabs:
+              -
+                name: Content
+                sortOrder: 1
+                fields:
+                  90d4a327-9400-48d7-8bb4-18e710636c38:
+                    required: true
+                    sortOrder: 2
+                  d7ccc6b6-5363-4117-92f8-aa87787aaaec:
+                    required: false
+                    sortOrder: 3
+                  e02a1f1e-a3b6-4425-aa2b-04168abc924c:
+                    required: false
+                    sortOrder: 1
+              -
+                name: 'SEO / Meta'
+                sortOrder: 2
+                fields:
+                  8eb75ebb-5efd-460a-b661-78a2e5c1929b:
+                    required: false
+                    sortOrder: 3
+                  e3bfa017-1474-4fed-a176-88a42ff2e8c2:
+                    required: false
+                    sortOrder: 2
+                  f6eb14cb-2129-492c-b471-b6ea4179d905:
+                    required: false
+                    sortOrder: 1
 siteGroups:
   88d38408-5360-4f46-b37c-026f929f9307:
     name: 'Craft Vue Tailwind'
@@ -1516,3 +2556,6 @@ volumes:
               c2609bfd-fefa-4ef4-9677-4644e30ed7b2:
                 required: false
                 sortOrder: 1
+              f6eb14cb-2129-492c-b471-b6ea4179d905:
+                required: false
+                sortOrder: 2
