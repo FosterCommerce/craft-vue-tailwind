@@ -26,7 +26,7 @@ categoryGroups:
               f6eb14cb-2129-492c-b471-b6ea4179d905:
                 required: false
                 sortOrder: 1
-dateModified: 1576542114
+dateModified: 1576544310
 email:
   fromEmail: support@fostercommerce.com
   fromName: 'Craft Vue Tailwind'
@@ -56,11 +56,11 @@ fieldlabels:
     instructions: null
     hideName: false
     hideInstructions: false
-  02d5fa51-0324-4f16-89ab-9c2be99ba3c7:
-    field: f6eb14cb-2129-492c-b471-b6ea4179d905
-    fieldLayout: 95a8afe5-3088-4221-a5a2-72244c99eb2c
-    name: 'Background Image'
-    instructions: null
+  103ac7fc-78c7-4eb8-ad54-847b67de7483:
+    field: 6286013d-8215-4661-87ba-5f4531648a0d
+    fieldLayout: b5ca9ee2-cf4d-47d2-b9eb-4e8f24388705
+    name: null
+    instructions: 'If you would like the user to be redirected to another page upon successfully submitting the form, select it here.'
     hideName: false
     hideInstructions: false
   14484882-8c18-460a-a80a-ef33044364b9:
@@ -70,17 +70,10 @@ fieldlabels:
     instructions: null
     hideName: false
     hideInstructions: false
-  15955ea4-9598-40b8-bbb4-0f5b6c8d1d72:
-    field: 9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2
-    fieldLayout: a2749570-8f8d-4f97-a418-50bda0f93a3e
-    name: 'Button Size'
-    instructions: null
-    hideName: false
-    hideInstructions: false
-  24a967c5-b198-4dd9-848f-3f35c571736b:
-    field: 57f2498a-803a-4083-9433-9b937db415bc
-    fieldLayout: 1d566ede-cbd1-4597-812c-6c4a7ccc6265
-    name: 'Table Color'
+  1cdf3020-8fef-43ba-84cb-2d543ad62ffd:
+    field: 87a3aca4-9b17-41ab-a703-bba76a315981
+    fieldLayout: 2cb29f15-5074-43f3-b5e4-7ab90aa0b927
+    name: 'Thumbnail Aspect Ratio'
     instructions: null
     hideName: false
     hideInstructions: false
@@ -105,6 +98,13 @@ fieldlabels:
     instructions: 'Include blocks of content to build out the article'
     hideName: false
     hideInstructions: false
+  3127e6b7-6705-481b-b670-02f412159e95:
+    field: 6286013d-8215-4661-87ba-5f4531648a0d
+    fieldLayout: c96dbb5c-2f37-4af1-b4af-8b91aaf5ab09
+    name: null
+    instructions: 'If you would like the user to be redirected to another page upon successfully submitting the form, select it here.'
+    hideName: false
+    hideInstructions: false
   33e0438e-ac04-4545-827e-dba40dd8373f:
     field: e02a1f1e-a3b6-4425-aa2b-04168abc924c
     fieldLayout: b870c8ec-ef37-4abe-9b54-8a4f703b57b5
@@ -119,6 +119,13 @@ fieldlabels:
     instructions: null
     hideName: false
     hideInstructions: false
+  46ace70a-7f85-4113-8f33-3881f477539a:
+    field: 57f2498a-803a-4083-9433-9b937db415bc
+    fieldLayout: 1d566ede-cbd1-4597-812c-6c4a7ccc6265
+    name: 'Table Color'
+    instructions: null
+    hideName: false
+    hideInstructions: false
   4e729115-883e-4cd8-9388-e35d926baaba:
     field: e3bfa017-1474-4fed-a176-88a42ff2e8c2
     fieldLayout: b870c8ec-ef37-4abe-9b54-8a4f703b57b5
@@ -130,7 +137,7 @@ fieldlabels:
     field: f6eb14cb-2129-492c-b471-b6ea4179d905
     fieldLayout: 4705535e-ca45-45a5-a79e-6684a8626a4d
     name: 'Default Page Header Image'
-    instructions: 'Include a default image for page headers that will be used of no preview image for the page is selected.'
+    instructions: 'Include a default image for page headers that will be used if no preview image for the page is selected.'
     hideName: false
     hideInstructions: false
   61eb5681-7dc8-4039-a429-2f56fe76f751:
@@ -151,6 +158,13 @@ fieldlabels:
     field: f6eb14cb-2129-492c-b471-b6ea4179d905
     fieldLayout: ab232e4c-6d38-4c72-90aa-1d195ea96651
     name: 'Preview Image'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  6e73cd54-0d5c-4562-98cb-ad0025217a9d:
+    field: 57f2498a-803a-4083-9433-9b937db415bc
+    fieldLayout: 1310cde0-91f6-4f3e-8a17-b1184ec78fb1
+    name: 'Button Color'
     instructions: null
     hideName: false
     hideInstructions: false
@@ -175,32 +189,18 @@ fieldlabels:
     instructions: 'Select the category of news articles to display on the page. Leave blank to display all articles.'
     hideName: false
     hideInstructions: false
-  7a6328f9-f251-4e25-aef3-37f76147e01e:
-    field: 57f2498a-803a-4083-9433-9b937db415bc
+  860f8e2a-18fa-4321-b45a-b565f97f03df:
+    field: 9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2
     fieldLayout: a2749570-8f8d-4f97-a418-50bda0f93a3e
-    name: 'Button Color'
+    name: 'Button Size'
     instructions: null
     hideName: false
     hideInstructions: false
-  7cf5aad4-1674-4a97-9eef-88f2fe394730:
-    field: 57f2498a-803a-4083-9433-9b937db415bc
-    fieldLayout: 3792ad99-c503-4d19-8155-78ea4064ad06
-    name: 'Table Color'
-    instructions: null
-    hideName: false
-    hideInstructions: false
-  86556367-5a29-4a74-9924-1af47ebf6613:
-    field: 87a3aca4-9b17-41ab-a703-bba76a315981
-    fieldLayout: ef4c47d1-7dc7-49e8-9eae-eec68da8e8fd
-    name: 'Thumbnail Aspect Ratio'
-    instructions: null
-    hideName: false
-    hideInstructions: false
-  8d5a2fe5-41df-4f13-a91d-d785f306a023:
-    field: 57f2498a-803a-4083-9433-9b937db415bc
-    fieldLayout: 1310cde0-91f6-4f3e-8a17-b1184ec78fb1
-    name: 'Button Color'
-    instructions: null
+  8d4505ab-e3cd-4c47-b1ea-6000f0190be7:
+    field: c3651f55-968d-46a6-bde1-c32e6c4f635d
+    fieldLayout: b42ad105-7d14-4f21-83f5-b37a659ac819
+    name: null
+    instructions: 'Your business address'
     hideName: false
     hideInstructions: false
   980236a8-008b-4c2c-9eb4-65680023726c:
@@ -210,17 +210,45 @@ fieldlabels:
     instructions: null
     hideName: false
     hideInstructions: false
-  b8b6fe51-a876-41c3-8e84-a25891d3041a:
-    field: 87a3aca4-9b17-41ab-a703-bba76a315981
-    fieldLayout: 2cb29f15-5074-43f3-b5e4-7ab90aa0b927
-    name: 'Thumbnail Aspect Ratio'
+  a3a9b752-2ae2-4797-ada9-bb4f7ebdbd14:
+    field: f6eb14cb-2129-492c-b471-b6ea4179d905
+    fieldLayout: 95a8afe5-3088-4221-a5a2-72244c99eb2c
+    name: 'Background Image'
     instructions: null
+    hideName: false
+    hideInstructions: false
+  a4fae074-6e28-4f13-afdd-7d5a8370ec77:
+    field: 57f2498a-803a-4083-9433-9b937db415bc
+    fieldLayout: a2749570-8f8d-4f97-a418-50bda0f93a3e
+    name: 'Button Color'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  ac0fab81-a82e-405c-a51e-ba686d42227d:
+    field: 331f18ab-885e-434c-9e0a-c0c51fdd435d
+    fieldLayout: b42ad105-7d14-4f21-83f5-b37a659ac819
+    name: null
+    instructions: 'Your business phone number'
     hideName: false
     hideInstructions: false
   c11baa06-b38b-42d8-99c7-cf1058818fc4:
     field: 89aeb5c6-2010-4b63-8418-bb1cbc073dbe
     fieldLayout: b42ad105-7d14-4f21-83f5-b37a659ac819
     name: Address
+    instructions: 'Your business address'
+    hideName: false
+    hideInstructions: false
+  cf6f24df-b2ff-4aab-96c3-a000bb9acc67:
+    field: da6505e8-c202-4902-8d31-2617deeebc1e
+    fieldLayout: b42ad105-7d14-4f21-83f5-b37a659ac819
+    name: null
+    instructions: 'Your business Fax'
+    hideName: false
+    hideInstructions: false
+  d1a029de-72de-4653-a8aa-7f23eb8f5c4e:
+    field: 9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2
+    fieldLayout: 1310cde0-91f6-4f3e-8a17-b1184ec78fb1
+    name: 'Button Size'
     instructions: null
     hideName: false
     hideInstructions: false
@@ -238,10 +266,24 @@ fieldlabels:
     instructions: null
     hideName: false
     hideInstructions: false
-  d76aabd3-eeef-4e33-ac45-65d3f3db2e45:
-    field: 9995c1a8-7fe7-4dc4-bac6-7a5a2547e5e2
-    fieldLayout: 1310cde0-91f6-4f3e-8a17-b1184ec78fb1
-    name: 'Button Size'
+  e2279b71-8048-4656-a791-995d7269cc9e:
+    field: 57f2498a-803a-4083-9433-9b937db415bc
+    fieldLayout: 3792ad99-c503-4d19-8155-78ea4064ad06
+    name: 'Table Color'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  e825f055-53f8-4ef8-a89a-4c5d66291914:
+    field: 80be1cb0-8f7d-4b68-907f-80dd8ed9d007
+    fieldLayout: d70439e2-45b1-499f-86ad-3b14bab04dce
+    name: 'Featured Articles'
+    instructions: 'Select the articles to feature on this page. Leave blank to display the latest published articles.'
+    hideName: false
+    hideInstructions: false
+  ec43e6a4-44dd-44d5-9445-b1fe588ddc64:
+    field: 87a3aca4-9b17-41ab-a703-bba76a315981
+    fieldLayout: ef4c47d1-7dc7-49e8-9eae-eec68da8e8fd
+    name: 'Thumbnail Aspect Ratio'
     instructions: null
     hideName: false
     hideInstructions: false
@@ -591,6 +633,25 @@ fields:
           default: ''
     contentColumnType: string
     fieldGroup: 3c9f6df0-5abd-4877-a460-4152aec05e33
+  6286013d-8215-4661-87ba-5f4531648a0d:
+    name: 'Redirect Page'
+    handle: redirectPage
+    instructions: ''
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Entries
+    settings:
+      sources: '*'
+      source: null
+      targetSiteId: null
+      viewMode: null
+      limit: '1'
+      selectionLabel: ''
+      localizeRelations: false
+      validateRelatedElements: ''
+    contentColumnType: string
+    fieldGroup: 8c1e1966-fc9d-48fd-9621-ff86acfa29ef
   734d68d3-e878-4e03-8aa9-9feb0dd82fb1:
     name: Form
     handle: form
@@ -618,10 +679,31 @@ fields:
       removeNbsp: '1'
       purifyHtml: '1'
       columnType: text
-      availableVolumes: '*'
+      availableVolumes:
+        - b4623a75-4ffd-4637-bd4d-36ffbe88a935
       availableTransforms: '*'
     contentColumnType: text
     fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  80be1cb0-8f7d-4b68-907f-80dd8ed9d007:
+    name: Articles
+    handle: newsEntries
+    instructions: ''
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Entries
+    settings:
+      sources:
+        - 'section:eef60044-7c15-4709-90ea-0c8035e7b0cd'
+      source: null
+      targetSiteId: null
+      viewMode: null
+      limit: ''
+      selectionLabel: ''
+      localizeRelations: false
+      validateRelatedElements: ''
+    contentColumnType: string
+    fieldGroup: 8c1e1966-fc9d-48fd-9621-ff86acfa29ef
   87a3aca4-9b17-41ab-a703-bba76a315981:
     name: 'Aspect Ratio'
     handle: aspect
@@ -904,7 +986,8 @@ fields:
         fruitstudios\linkit\models\Asset:
           enabled: '1'
           customLabel: ''
-          sources: '*'
+          sources:
+            - 'folder:69c7ff12-d018-4af6-9653-fe7836160abf'
           customSelectionLabel: ''
         fruitstudios\linkit\models\User:
           enabled: ''
@@ -982,6 +1065,18 @@ fields:
       columnType: text
     contentColumnType: text
     fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
+  c3651f55-968d-46a6-bde1-c32e6c4f635d:
+    name: 'Email Address'
+    handle: email
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Email
+    settings:
+      placeholder: ''
+    contentColumnType: string
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
   cdb2e12c-0fba-43fe-bfcc-643a14754ab9:
     name: Quote
     handle: quote
@@ -1042,6 +1137,23 @@ fields:
       validateRelatedElements: ''
     contentColumnType: string
     fieldGroup: 8c1e1966-fc9d-48fd-9621-ff86acfa29ef
+  da6505e8-c202-4902-8d31-2617deeebc1e:
+    name: Fax
+    handle: fax
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: ''
+      initialRows: '4'
+      charLimit: ''
+      columnType: text
+    contentColumnType: text
+    fieldGroup: 59376394-99bc-4a56-848d-d7f1bb119194
   e02a1f1e-a3b6-4425-aa2b-04168abc924c:
     name: 'Alternate Title'
     handle: altTitle
@@ -1157,7 +1269,13 @@ globalSets:
                 sortOrder: 2
               89aeb5c6-2010-4b63-8418-bb1cbc073dbe:
                 required: false
+                sortOrder: 4
+              c3651f55-968d-46a6-bde1-c32e6c4f635d:
+                required: false
                 sortOrder: 1
+              da6505e8-c202-4902-8d31-2617deeebc1e:
+                required: false
+                sortOrder: 3
   98b897f7-b828-4bf3-857d-925e359b630c:
     name: Sections
     handle: sections
@@ -1190,42 +1308,42 @@ navigation:
       propagateNodes: false
       sortOrder: null
 neoBlockTypeGroups:
-  007193ef-8a83-4947-9f2e-6e32c9aeeada:
-    field: 90d4a327-9400-48d7-8bb4-18e710636c38
-    name: Media
-    sortOrder: 7
-  1eb6ebcf-29b5-4ec3-a7c9-ecd90cc88859:
+  08d31a68-fd1f-4d60-8a82-acbf7313473f:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Modules
     sortOrder: 15
-  281bca62-88b4-4a46-b505-24b433de34c9:
-    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
-    name: Media
-    sortOrder: 9
-  5066347b-6356-435a-8f64-d3d37faf37e4:
-    field: 90d4a327-9400-48d7-8bb4-18e710636c38
-    name: Text
-    sortOrder: 1
-  7f9dbc80-43fb-45c3-9152-ecf09ed54040:
-    field: 90d4a327-9400-48d7-8bb4-18e710636c38
-    name: Components
-    sortOrder: 18
-  86a0d80f-3d1e-4592-a070-a38a318acb6c:
-    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
-    name: Containers
-    sortOrder: 1
-  9c5a3dc4-821e-4493-9c1e-47ef7c6e52ee:
+  193e2d9e-d45e-4e89-aaf3-7bef4d39a87c:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Text
     sortOrder: 3
-  e55e9a2c-d4da-4c09-8029-d76c33354a16:
-    field: 90d4a327-9400-48d7-8bb4-18e710636c38
-    name: Modules
-    sortOrder: 13
-  f3720c6c-8f85-4fe9-91f3-eeea3321bfca:
+  23fd18aa-51b6-4a38-a8a1-d7c4df124942:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Media
+    sortOrder: 9
+  377fb226-37b8-4594-b0e9-235800f9e75c:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
     name: Components
     sortOrder: 20
+  3f725540-c8d0-4f82-abc3-877eb0699540:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Components
+    sortOrder: 18
+  45279994-edcb-4cdd-9ddf-627204d20e40:
+    field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
+    name: Containers
+    sortOrder: 1
+  867394ee-3d5f-4698-887b-00decbcd3f23:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Text
+    sortOrder: 1
+  8a2c6a4a-5a28-43d4-826b-cb5bc5bdfae0:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Modules
+    sortOrder: 13
+  ae656567-ec6c-4e1f-88a3-1c92c588bc36:
+    field: 90d4a327-9400-48d7-8bb4-18e710636c38
+    name: Media
+    sortOrder: 7
 neoBlockTypes:
   02ec681f-f570-4233-b3df-70226ab61b32:
     field: 90d4a327-9400-48d7-8bb4-18e710636c38
@@ -1401,11 +1519,14 @@ neoBlockTypes:
             name: Content
             sortOrder: 1
             fields:
+              6286013d-8215-4661-87ba-5f4531648a0d:
+                required: false
+                sortOrder: 3
               734d68d3-e878-4e03-8aa9-9feb0dd82fb1:
                 required: true
                 sortOrder: 1
               9c399ba4-8fdb-47a1-9f2c-883a0c08c56f:
-                required: true
+                required: false
                 sortOrder: 2
   275f5285-cf76-4b51-9628-42ad3cfaac3a:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
@@ -1587,7 +1708,7 @@ neoBlockTypes:
     childBlocks: ''
     topLevel: true
     fieldLayouts:
-      -
+      5e72834c-8d84-40e9-add6-809f5cd48232:
         tabs:
           -
             name: Content
@@ -2099,11 +2220,14 @@ neoBlockTypes:
             name: Content
             sortOrder: 1
             fields:
+              6286013d-8215-4661-87ba-5f4531648a0d:
+                required: false
+                sortOrder: 3
               734d68d3-e878-4e03-8aa9-9feb0dd82fb1:
                 required: true
                 sortOrder: 1
               9c399ba4-8fdb-47a1-9f2c-883a0c08c56f:
-                required: true
+                required: false
                 sortOrder: 2
   f3c4b0c9-5693-4c6e-a9c1-8f56d9a5d4bf:
     field: b8826224-f4da-4eca-95e1-b4e3acd1b2c3
@@ -2358,10 +2482,13 @@ sections:
                 fields:
                   03b750b8-b69a-4bec-a1d1-cecf95c4b46d:
                     required: false
-                    sortOrder: 3
-                  d7ccc6b6-5363-4117-92f8-aa87787aaaec:
+                    sortOrder: 4
+                  80be1cb0-8f7d-4b68-907f-80dd8ed9d007:
                     required: false
                     sortOrder: 2
+                  d7ccc6b6-5363-4117-92f8-aa87787aaaec:
+                    required: false
+                    sortOrder: 3
                   e02a1f1e-a3b6-4425-aa2b-04168abc924c:
                     required: false
                     sortOrder: 1
