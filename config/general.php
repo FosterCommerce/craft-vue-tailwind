@@ -26,6 +26,16 @@ return [
         // Whether to save the project config out to config/project.yaml
         // (see https://docs.craftcms.com/v3/project-config.html)
         'useProjectConfigFile' => true,
+
+        // User email addresses as usernames
+        'useEmailAsUsername' => true,
+
+        // Max file upload size (256M)
+        'maxUploadFileSize' => 268435456,
+
+        // Allow JSON file uploads for Embedded Assets plugin
+        'extraAllowedFileExtensions' => ['json'],
+
     ],
 
     // Dev environment settings
