@@ -26,7 +26,7 @@ categoryGroups:
               f6eb14cb-2129-492c-b471-b6ea4179d905:
                 required: false
                 sortOrder: 1
-dateModified: 1576532404
+dateModified: 1576540948
 email:
   fromEmail: support@fostercommerce.com
   fromName: 'Craft Vue Tailwind'
@@ -193,6 +193,13 @@ fieldlabels:
     field: 87a3aca4-9b17-41ab-a703-bba76a315981
     fieldLayout: 2cb29f15-5074-43f3-b5e4-7ab90aa0b927
     name: 'Thumbnail Aspect Ratio'
+    instructions: null
+    hideName: false
+    hideInstructions: false
+  c11baa06-b38b-42d8-99c7-cf1058818fc4:
+    field: 89aeb5c6-2010-4b63-8418-bb1cbc073dbe
+    fieldLayout: b42ad105-7d14-4f21-83f5-b37a659ac819
+    name: Address
     instructions: null
     hideName: false
     hideInstructions: false
