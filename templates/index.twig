@@ -8,6 +8,13 @@
 
 {% block content %}
 
+  {% for row in entry.pageContent.level(1).all() %}
 
+    {% include '_components/containers/row' with {
+      row: row,
+      count: loop.index
+    } %}
+
+  {% endfor %}
 
 {% endblock %}
