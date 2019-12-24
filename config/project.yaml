@@ -26,7 +26,7 @@ categoryGroups:
               f6eb14cb-2129-492c-b471-b6ea4179d905:
                 required: false
                 sortOrder: 1
-dateModified: 1576544953
+dateModified: 1576590392
 email:
   fromEmail: support@fostercommerce.com
   fromName: 'Craft Vue Tailwind'
@@ -2426,6 +2426,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.1.1
+  classnames:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 sections:
   1e3c4cbe-0bc4-42ec-85db-1b75ad0e2492:
     name: Homepage
