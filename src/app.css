@@ -1,8 +1,8 @@
 @import "tailwindcss/base";
-@import-glob "components/custom/base/**/*.css";
+@import-glob "css/base/**/*.css";
 
 @import "tailwindcss/components";
-@import-glob "components/custom/components/**/*.css";
+@import-glob "css/components/**/*.css";
 
 @import "tailwindcss/utilities";
-@import-glob "components/custom/utilities/**/*.css";
+@import-glob "css/utilities/**/*.css";

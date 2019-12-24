@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc15f3881d5f5f9b9ed50b9ae397eb88",
+    "content-hash": "b76470444668cbe544f74a03f7bdc197",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -3404,6 +3404,41 @@
             "time": "2019-10-14T05:51:36+00:00"
         },
         {
+            "name": "newridetech/php-classnames",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/newridetech/php-classnames.git",
+                "reference": "b3a75a161379fe59cf87aa1034fe6009ca6aa4b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/newridetech/php-classnames/zipball/b3a75a161379fe59cf87aa1034fe6009ca6aa4b0",
+                "reference": "b3a75a161379fe59cf87aa1034fe6009ca6aa4b0",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Newride\\Classnames\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mateusz Charytoniuk",
+                    "email": "mateusz.charytoniuk@newride.tech"
+                }
+            ],
+            "time": "2018-07-01T23:28:16+00:00"
+        },
+        {
             "name": "nfourtythree/entriessubset",
             "version": "1.2.2",
             "source": {
@@ -6465,6 +6500,58 @@
                 "super table"
             ],
             "time": "2019-11-26T23:29:31+00:00"
+        },
+        {
+            "name": "viget/craft-classnames",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vigetlabs/craft-classnames.git",
+                "reference": "8e16e5dc5355d99e804f9c6bd7dd187b03ac8c83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vigetlabs/craft-classnames/zipball/8e16e5dc5355d99e804f9c6bd7dd187b03ac8c83",
+                "reference": "8e16e5dc5355d99e804f9c6bd7dd187b03ac8c83",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1",
+                "newridetech/php-classnames": "^1.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Classnames",
+                "handle": "classnames",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/vigetlabs/craft-classnames/master/CHANGELOG.md",
+                "class": "viget\\classnames\\Classnames"
+            },
+            "autoload": {
+                "psr-4": {
+                    "viget\\classnames\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Frank",
+                    "homepage": "https://www.viget.com/"
+                }
+            ],
+            "description": "Classnames plugin for Craft CMS",
+            "keywords": [
+                "Craft",
+                "classnames",
+                "cms",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "time": "2019-09-16T21:47:27+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

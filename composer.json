@@ -39,6 +39,7 @@
     "topshelfcraft/supersort": "^3.0",
     "verbb/navigation": "1.1.14.1",
     "verbb/super-table": "^2.3",
+    "viget/craft-classnames": "^1.0",
     "vlucas/phpdotenv": "^2.4.0"
   },
   "autoload": {
