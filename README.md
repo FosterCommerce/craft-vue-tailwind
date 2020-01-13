@@ -29,28 +29,14 @@ You should fork this repo to create your own opinionated boilerplate for your se
 
 This boilerplate requires Vue CLI 3 be [installed globally on your machine](https://cli.vuejs.org/guide/installation.html).
 
-```bash
-# create & install project
-composer create-project chasegiunta/craft-vue-tailwind PATH
-
-# run Craft's setup & install
-./craft setup
-
-# install the Twigpack plugin
-./craft install/plugin twigpack
-
-# install dependencies
-npm install # yarn
-
-# (optional) initialize Tailwind's config file (tailwind.config.js)
-./node_modules/.bin/tailwind init
-
-# run dev server (default runs on localhost:8080)
-npm run dev # yarn dev (alias for 'yarn serve')
-
-# build for production with minification
-npm run build # yarn build
-```
+1. Run `composer install` to install Craft dependencies.
+2. Create a MySQL database locally.
+3. Import the database dump file at `_dev/database.sql.gz` into your database. (on Mac/Linux `$ gunzip _dev/database.sql.gz`)
+4. Set up a web server locally and create a host name that points to the `/web` directory
+5. Create and configure a `.env` file using [`.env.example`](/.env.example) as an example*.
+6. Run `npm install` to install front end build chain dependencies.
+7. Run `npm run dev` to run the dev server (default runs on localhost:8080)
+8. Run `npm run build` to build for production
 
 Once up and running, the fun part comes in using Vue CLI's GUI to customize your project to suite your needs. Simply run `vue ui` and import your newly created project to get started.
 
@@ -61,15 +47,6 @@ You can also run your `dev` & `build` tasks from the GUI to get valuable build s
 If webpack's dev server (`yarn dev`) is not running, Twigpack will serve your assets from the build directory.
 
 For a detailed explanation on how things work, check out the [Twigpack docs](https://github.com/nystudio107/craft-twigpack) & [Vue CLI docs](https://cli.vuejs.org/).
-
-## Pre-Processors
-
-This boilerplate has pre-configured CSS extraction for most popular CSS pre-processors including LESS, SASS, Stylus, and PostCSS. To use a pre-processor, all you need to do is install the appropriate webpack loader for it. For example, to use SASS:
-
-```bash
-npm install sass-loader node-sass --save-dev
-# yarn add sass-loader node-sass --dev
-```
 
 Note you also need to install node-sass because sass-loader depends on it as a peer dependency.
 
