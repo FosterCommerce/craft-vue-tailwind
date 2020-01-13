@@ -36,6 +36,7 @@ This boilerplate requires Vue CLI 3 be [installed globally on your machine](http
 5. Create and configure a `.env` file using [`.env.example`](/.env.example) as an example*.
 6. Run `npm install` to install front end build chain dependencies.
 7. Run `npm run dev` to run the dev server (default runs on localhost:8080)
+8. Visit your local server domain you setup earlier to view (only assets for hot module replacement are served from `localhost:8080`, see below)
 8. Run `npm run build` to build for production
 
 Once up and running, the fun part comes in using Vue CLI's GUI to customize your project to suite your needs. Simply run `vue ui` and import your newly created project to get started.
