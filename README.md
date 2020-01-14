@@ -200,3 +200,5 @@ export const primaryButton = story(ButtonPrimary);
 Now, navigate over to http://localhost:9001/ and you should see this:
 
 ![alt text](readme-images/Screenshot_5.png "Storybook with Vue components")
+
+More info: https://dev.to/josephuspaye/using-storybook-with-vue-single-file-components-2od
