@@ -5,9 +5,11 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build --modern"
+    "build": "vue-cli-service build --modern",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "dependencies": {
+    "core-js": "^3.6.4",
     "postcss-import": "^12.0.1",
     "postcss-import-ext-glob": "^1.1.0",
     "postcss-mixins": "^6.2.3",
@@ -15,16 +17,21 @@
     "postcss-simple-vars": "^5.0.2",
     "tailwindcss": "^1.0.0",
     "tailwindcss-grid": "^1.2.1",
-    "vue": "^2.6.0"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.8.0",
-    "@vue/cli-service": "^3.8.0",
+    "@storybook/addon-actions": "^5.3.3",
+    "@storybook/addon-links": "^5.3.3",
+    "@storybook/addons": "^5.3.3",
+    "@storybook/vue": "^5.3.3",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-service": "^4.1.2",
+    "babel-preset-vue": "^2.0.2",
     "filemanager-webpack-plugin": "^2.0.5",
     "glob-all": "^3.1.0",
     "purgecss-webpack-plugin": "^1.5.0",
     "purgecss-whitelister": "^2.1.0",
-    "vue-template-compiler": "^2.6.0",
+    "vue-template-compiler": "^2.6.11",
     "webpack-manifest-plugin": "^2.0.4"
   },
   "postcss": {

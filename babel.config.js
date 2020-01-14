@@ -1,18 +1,12 @@
 // https://cli.vuejs.org/guide/browser-compatibility.html#browser-compatibility
 
 module.exports = {
-  // https://cli.vuejs.org/config/#babel
-  presets: [
-    ["@vue/app"
-    // https://cli.vuejs.org/guide/browser-compatibility.html#polyfills
-    // , {
-    //   polyfills: [
-    //     'es6.promise',
-    //     'es6.symbol'
-    //   ]
-    // }
-    ]
-  ]
-  // https://babeljs.io/docs/en/options#sourcetype
-  // , sourceType: "unambiguous",
+  /*presets: [["@vue/babel-preset-app", {
+    useBuiltIns: "usage",
+    polyfills: [
+      'es.promise',
+      'es.symbol',
+      'es.array.iterator'
+    ],
+  }]]*/
 };
