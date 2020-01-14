@@ -37,22 +37,23 @@
 
 <script>
 	export default {
-		name: "SiteHeader",
-    props: ["info", "navigation"],
-    data() {
-			return {
-				isOpen: false
-      };
-    }
+      name: "SiteHeader",
+      props: ["info", "navigation"],
+      data() {
+              return {
+                  isOpen: false
+        };
+      }
 	}
 </script>
 
-<style scoped>
+<style type="scss" scoped>
 
   a,
   button svg {
     transition: all 0.25s;
   }
+
   nav {
 
     top: 0;

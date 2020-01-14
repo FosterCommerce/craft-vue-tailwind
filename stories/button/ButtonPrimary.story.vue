@@ -3,7 +3,7 @@
 </template>
 
 <script>
-    import Button from '../src/components/global/Button.vue';
+    import Button from '../../src/components/global/Button.vue';
 
     export default {
         name: 'ButtonPrimary',
@@ -11,4 +11,4 @@
     };
 </script>
 
-<include-source>stories/ButtonPrimary.story.vue</include-source>
+<include-source>stories/button/ButtonPrimary.story.vue</include-source>
