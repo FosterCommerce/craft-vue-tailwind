@@ -54,6 +54,8 @@ Read more about this at https://cli.vuejs.org/guide/css.html#pre-processors
 1. Inside Vue CLI (`vue ui` from the command line), select "storybook" from the project tasks and click "Run task"
 2. To view the Storybook frontend, visit localhost:9001
 
+![alt text](readme-images/Screenshot_1.png "Running dev and Storybook servers with Vue CLI")
+
 ## Automatic Component Registration
 
 Any vue components placed within `src/components` will be registered with Vue automatically. You may nest these in subfolders if you wish.
