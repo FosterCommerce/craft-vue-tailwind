@@ -204,3 +204,10 @@ Now, navigate over to http://localhost:9001/ and you should see this:
 ![alt text](readme-images/Screenshot_5.png "Storybook with Vue components")
 
 More info: https://dev.to/josephuspaye/using-storybook-with-vue-single-file-components-2od
+
+## Sharing Storybook with Clients
+
+1. On the staging server, run `start-storybook -p 9001 -c .storybook`
+2. Navigate to the the staging URL at port 9001 (example: staging.myclient.com:9001)
+
+![alt text](readme-images/Screenshot_6.png "Storybook running on an example staging URL")
