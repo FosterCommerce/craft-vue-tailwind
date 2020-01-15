@@ -23,6 +23,7 @@
     "aelvan/imager": "^2.3",
     "craftcms/aws-s3": "^1.2",
     "craftcms/cms": "^3.0.0",
+    "craftcms/commerce": "^2.2",
     "craftcms/redactor": "^2.4",
     "ether/simplemap": "^3.7",
     "fruitstudios/linkit": "^1.1",

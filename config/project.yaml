@@ -26,7 +26,50 @@ categoryGroups:
               f6eb14cb-2129-492c-b471-b6ea4179d905:
                 required: false
                 sortOrder: 1
-dateModified: 1577211027
+commerce:
+  orderStatuses:
+    1eae8ac4-562b-4448-997a-8ba2c20f2cfe:
+      name: New
+      handle: new
+      color: green
+      description: null
+      sortOrder: 99
+      default: true
+    8c3bd790-ae49-458a-a4fe-573ec06b865d:
+      name: Shipped
+      handle: shipped
+      color: blue
+      description: null
+      sortOrder: 99
+      default: false
+  productTypes:
+    6b0814bb-e248-4a9f-bb8e-b42de1bdcd8d:
+      name: Clothing
+      handle: clothing
+      hasDimensions: true
+      hasVariants: false
+      hasVariantTitleField: false
+      titleFormat: '{product.title}'
+      skuFormat: ''
+      descriptionFormat: ''
+      siteSettings:
+        a5ce728f-b001-490e-9485-2d5463118d30:
+          hasUrls: true
+          uriFormat: 'shop/products/{slug}'
+          template: shop/products/_product
+        ab67a472-afac-4525-a8c9-08a909f0d281:
+          hasUrls: true
+          uriFormat: 'shop/products/{slug}'
+          template: shop/products/_product
+  gateways:
+    3fd20a6a-fc29-486f-9335-595cfc1d1a03:
+      name: Dummy
+      handle: dummy
+      type: craft\commerce\gateways\Dummy
+      sortOrder: 99
+      paymentType: purchase
+      isFrontendEnabled: true
+dateModified: 1579098215
 email:
   fromEmail: support@fostercommerce.com
   fromName: 'Craft Vue Tailwind'
@@ -2430,6 +2473,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  commerce:
+    edition: lite
+    enabled: true
+    schemaVersion: 2.2.1
 sections:
   1e3c4cbe-0bc4-42ec-85db-1b75ad0e2492:
     name: Homepage
