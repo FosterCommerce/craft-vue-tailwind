@@ -1,4 +1,4 @@
-DEPRECATED: This was our initial foray into using Vue and Craft based off of the work Chase did.
+DEPRECATED: This was our initial foray into using Vue and Craft based off of the work Chase did. Archived for reference only. Use [Craft FWORK Plus](https://github.com/FosterCommerce/craft-fwork-plus) for production work.
 
 # craft-vue-tailwind
 
