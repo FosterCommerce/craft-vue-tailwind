@@ -1,3 +1,5 @@
+DEPRECATED: This was our initial foray into using Vue and Craft based off of the work Chase did.
+
 # craft-vue-tailwind
 
 Fork of the [craft-vue](https://github.com/chasegiunta/craft-vue) template that integrates the Tailwind CSS utility framework & removes unused CSS with Purgecss.
